@@ -1,0 +1,110 @@
+
+====================================================================================================
+Agent 提示词记录摘要
+回测时间: 2026-01-08 14:21:18
+====================================================================================================
+
+格式: [Timestamp] Bar #XXXXXX | Agent=X | Length=XXXXX chars
+
+记录的文件:
+- agent_a_prompts.log: Agent A 的完整提示词
+- agent_b_prompts.log: Agent B 的完整提示词
+- agent_s_prompts.log: Agent S 的完整提示词
+- agent_c_reflections.log: Agent C 的交易反思
+
+====================================================================================================
+[2026-01-08T14:21:32.324627] Bar #004421 | Agent S | Prompt=5,295 chars | Output=2,347 chars
+[2026-01-08T14:21:36.246722] Bar #004421 | Agent A | Prompt=9,360 chars | Output=1,030 chars
+[2026-01-08T14:21:39.372251] Bar #004421 | Agent B | Prompt=5,339 chars | Output=719 chars
+[2026-01-08T14:21:49.535400] Bar #004422 | Agent S | Prompt=5,307 chars | Output=2,689 chars
+[2026-01-08T14:21:53.656632] Bar #004422 | Agent A | Prompt=9,865 chars | Output=1,065 chars
+[2026-01-08T14:21:56.875436] Bar #004422 | Agent B | Prompt=5,542 chars | Output=787 chars
+[2026-01-08T14:21:56.997308] Bar #004422 | Agent C | Prompt=1,155 chars | Output=706 chars
+[2026-01-08T14:21:57.071264] Bar #004422 | Agent C | Prompt=1,881 chars | Output=2,023 chars
+[2026-01-08T14:22:07.866399] Bar #004424 | Agent S | Prompt=5,333 chars | Output=2,956 chars
+[2026-01-08T14:22:11.588486] Bar #004424 | Agent A | Prompt=10,330 chars | Output=1,014 chars
+[2026-01-08T14:22:14.908005] Bar #004424 | Agent B | Prompt=5,685 chars | Output=803 chars
+[2026-01-08T14:22:25.416200] Bar #004425 | Agent S | Prompt=5,345 chars | Output=2,828 chars
+[2026-01-08T14:22:29.135766] Bar #004425 | Agent A | Prompt=10,393 chars | Output=971 chars
+[2026-01-08T14:22:31.750074] Bar #004425 | Agent B | Prompt=5,844 chars | Output=633 chars
+[2026-01-08T14:22:44.506984] Bar #004426 | Agent S | Prompt=5,681 chars | Output=3,836 chars
+[2026-01-08T14:22:49.032564] Bar #004426 | Agent A | Prompt=11,956 chars | Output=1,190 chars
+[2026-01-08T14:22:52.348055] Bar #004426 | Agent B | Prompt=6,622 chars | Output=801 chars
+[2026-01-08T14:22:52.363035] Bar #004426 | Agent C | Prompt=1,232 chars | Output=744 chars
+[2026-01-08T14:22:52.431448] Bar #004426 | Agent C | Prompt=1,920 chars | Output=2,058 chars
+[2026-01-08T14:23:04.601225] Bar #004428 | Agent S | Prompt=5,742 chars | Output=3,700 chars
+[2026-01-08T14:23:07.725970] Bar #004428 | Agent A | Prompt=12,010 chars | Output=890 chars
+[2026-01-08T14:23:10.640628] Bar #004428 | Agent B | Prompt=6,497 chars | Output=737 chars
+[2026-01-08T14:23:25.726752] Bar #004429 | Agent S | Prompt=5,755 chars | Output=4,495 chars
+[2026-01-08T14:23:29.246915] Bar #004429 | Agent A | Prompt=12,811 chars | Output=911 chars
+[2026-01-08T14:23:31.963489] Bar #004429 | Agent B | Prompt=6,531 chars | Output=666 chars
+[2026-01-08T14:23:40.479627] Bar #004430 | Agent S | Prompt=5,416 chars | Output=2,339 chars
+[2026-01-08T14:23:44.864126] Bar #004430 | Agent A | Prompt=10,107 chars | Output=1,205 chars
+[2026-01-08T14:23:47.875073] Bar #004430 | Agent B | Prompt=6,263 chars | Output=723 chars
+[2026-01-08T14:23:57.834936] Bar #004431 | Agent S | Prompt=5,428 chars | Output=2,619 chars
+[2026-01-08T14:24:01.601152] Bar #004431 | Agent A | Prompt=10,396 chars | Output=986 chars
+[2026-01-08T14:24:04.631112] Bar #004431 | Agent B | Prompt=6,056 chars | Output=679 chars
+[2026-01-08T14:24:14.828061] Bar #004432 | Agent S | Prompt=5,434 chars | Output=2,747 chars
+[2026-01-08T14:24:18.347905] Bar #004432 | Agent A | Prompt=10,529 chars | Output=955 chars
+[2026-01-08T14:24:21.167653] Bar #004432 | Agent B | Prompt=6,031 chars | Output=703 chars
+[2026-01-08T14:24:29.514188] Bar #004433 | Agent S | Prompt=5,439 chars | Output=2,228 chars
+[2026-01-08T14:24:33.672231] Bar #004433 | Agent A | Prompt=10,198 chars | Output=1,107 chars
+[2026-01-08T14:24:37.296023] Bar #004433 | Agent B | Prompt=6,378 chars | Output=866 chars
+[2026-01-08T14:24:47.230679] Bar #004434 | Agent S | Prompt=5,445 chars | Output=2,721 chars
+[2026-01-08T14:24:51.067535] Bar #004434 | Agent A | Prompt=10,688 chars | Output=1,037 chars
+[2026-01-08T14:24:53.891210] Bar #004434 | Agent B | Prompt=6,314 chars | Output=679 chars
+[2026-01-08T14:25:04.699623] Bar #004435 | Agent S | Prompt=5,450 chars | Output=3,167 chars
+[2026-01-08T14:25:08.853421] Bar #004435 | Agent A | Prompt=11,139 chars | Output=1,172 chars
+[2026-01-08T14:25:11.576585] Bar #004435 | Agent B | Prompt=6,454 chars | Output=603 chars
+[2026-01-08T14:25:20.709420] Bar #004436 | Agent S | Prompt=5,457 chars | Output=2,448 chars
+[2026-01-08T14:25:24.529513] Bar #004436 | Agent A | Prompt=10,431 chars | Output=1,000 chars
+[2026-01-08T14:25:28.152227] Bar #004436 | Agent B | Prompt=6,289 chars | Output=844 chars
+[2026-01-08T14:25:36.431241] Bar #004437 | Agent S | Prompt=5,466 chars | Output=2,312 chars
+[2026-01-08T14:25:41.750575] Bar #004437 | Agent A | Prompt=10,309 chars | Output=1,467 chars
+[2026-01-08T14:25:44.873871] Bar #004437 | Agent B | Prompt=6,765 chars | Output=739 chars
+[2026-01-08T14:25:44.905258] Bar #004437 | Agent C | Prompt=1,294 chars | Output=775 chars
+[2026-01-08T14:25:44.912062] Bar #004437 | Agent C | Prompt=1,901 chars | Output=2,034 chars
+[2026-01-08T14:25:53.741477] Bar #004439 | Agent S | Prompt=5,486 chars | Output=2,403 chars
+[2026-01-08T14:25:57.283027] Bar #004439 | Agent A | Prompt=10,587 chars | Output=978 chars
+[2026-01-08T14:25:59.794955] Bar #004439 | Agent B | Prompt=6,453 chars | Output=582 chars
+[2026-01-08T14:26:09.409410] Bar #004440 | Agent S | Prompt=5,486 chars | Output=2,651 chars
+[2026-01-08T14:26:13.443705] Bar #004440 | Agent A | Prompt=10,833 chars | Output=1,057 chars
+[2026-01-08T14:26:16.360486] Bar #004440 | Agent B | Prompt=6,532 chars | Output=706 chars
+[2026-01-08T14:26:25.892191] Bar #004441 | Agent S | Prompt=5,490 chars | Output=2,743 chars
+[2026-01-08T14:26:29.813010] Bar #004441 | Agent A | Prompt=11,102 chars | Output=979 chars
+[2026-01-08T14:26:32.928295] Bar #004441 | Agent B | Prompt=6,648 chars | Output=712 chars
+[2026-01-08T14:26:42.078790] Bar #004442 | Agent S | Prompt=5,492 chars | Output=2,504 chars
+[2026-01-08T14:26:46.580111] Bar #004442 | Agent A | Prompt=10,868 chars | Output=1,135 chars
+[2026-01-08T14:26:49.821688] Bar #004442 | Agent B | Prompt=6,806 chars | Output=807 chars
+[2026-01-08T14:26:49.836334] Bar #004442 | Agent C | Prompt=1,134 chars | Output=695 chars
+[2026-01-08T14:26:49.842598] Bar #004442 | Agent C | Prompt=1,727 chars | Output=1,860 chars
+[2026-01-08T14:26:59.286119] Bar #004444 | Agent S | Prompt=5,493 chars | Output=2,690 chars
+[2026-01-08T14:27:03.285544] Bar #004444 | Agent A | Prompt=11,228 chars | Output=991 chars
+[2026-01-08T14:27:06.091576] Bar #004444 | Agent B | Prompt=6,821 chars | Output=625 chars
+[2026-01-08T14:27:14.440776] Bar #004445 | Agent S | Prompt=5,495 chars | Output=2,334 chars
+[2026-01-08T14:27:18.464726] Bar #004445 | Agent A | Prompt=10,875 chars | Output=1,067 chars
+[2026-01-08T14:27:21.498470] Bar #004445 | Agent B | Prompt=6,899 chars | Output=676 chars
+[2026-01-08T14:27:34.839254] Bar #004446 | Agent S | Prompt=5,816 chars | Output=4,117 chars
+[2026-01-08T14:27:40.094944] Bar #004446 | Agent A | Prompt=13,362 chars | Output=1,230 chars
+[2026-01-08T14:27:43.912177] Bar #004446 | Agent B | Prompt=7,784 chars | Output=924 chars
+[2026-01-08T14:27:57.293182] Bar #004447 | Agent S | Prompt=5,815 chars | Output=4,182 chars
+[2026-01-08T14:28:02.284181] Bar #004447 | Agent A | Prompt=13,427 chars | Output=1,330 chars
+[2026-01-08T14:28:05.499668] Bar #004447 | Agent B | Prompt=7,883 chars | Output=771 chars
+[2026-01-08T14:28:15.771367] Bar #004448 | Agent S | Prompt=5,494 chars | Output=2,821 chars
+[2026-01-08T14:28:20.605885] Bar #004448 | Agent A | Prompt=11,526 chars | Output=1,314 chars
+[2026-01-08T14:28:23.825301] Bar #004448 | Agent B | Prompt=7,323 chars | Output=733 chars
+[2026-01-08T14:28:35.847388] Bar #004449 | Agent S | Prompt=5,815 chars | Output=3,692 chars
+[2026-01-08T14:28:39.907254] Bar #004449 | Agent A | Prompt=12,936 chars | Output=1,190 chars
+[2026-01-08T14:28:42.924681] Bar #004449 | Agent B | Prompt=7,744 chars | Output=706 chars
+[2026-01-08T14:28:42.992976] Bar #004449 | Agent C | Prompt=1,321 chars | Output=788 chars
+[2026-01-08T14:28:43.062922] Bar #004449 | Agent C | Prompt=1,975 chars | Output=2,109 chars
+[2026-01-08T14:28:55.552738] Bar #004451 | Agent S | Prompt=5,816 chars | Output=3,937 chars
+[2026-01-08T14:28:59.785689] Bar #004451 | Agent A | Prompt=13,447 chars | Output=1,028 chars
+[2026-01-08T14:29:03.514716] Bar #004451 | Agent B | Prompt=7,848 chars | Output=944 chars
+[2026-01-08T14:29:15.984863] Bar #004452 | Agent S | Prompt=5,817 chars | Output=3,950 chars
+[2026-01-08T14:29:20.921976] Bar #004452 | Agent A | Prompt=13,624 chars | Output=1,353 chars
+[2026-01-08T14:29:25.242587] Bar #004452 | Agent B | Prompt=8,346 chars | Output=821 chars
+[2026-01-08T14:29:25.270672] Bar #004452 | Agent C | Prompt=1,198 chars | Output=727 chars
+[2026-01-08T14:29:25.275665] Bar #004452 | Agent C | Prompt=1,778 chars | Output=1,911 chars
+[2026-01-08T14:29:39.863976] Bar #004454 | Agent S | Prompt=5,829 chars | Output=4,457 chars
+[2026-01-08T14:29:43.889228] Bar #004454 | Agent A | Prompt=14,314 chars | Output=1,138 chars

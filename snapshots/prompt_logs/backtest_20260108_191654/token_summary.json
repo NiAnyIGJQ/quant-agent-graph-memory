@@ -1,0 +1,30 @@
+{
+  "session_dir": "prompt_logs\\backtest_20260108_191654",
+  "timestamp": "2026-01-09T07:22:09.362194",
+  "total_stats": {
+    "total_calls": 5805,
+    "total_input_tokens": 21351549,
+    "total_output_tokens": 6246581,
+    "total_tokens": 27598130
+  },
+  "agent_stats": {
+    "S": {
+      "calls": 1953,
+      "input_tokens": 3608213,
+      "output_tokens": 3728130,
+      "total_tokens": 7336343
+    },
+    "A": {
+      "calls": 1953,
+      "input_tokens": 11281297,
+      "output_tokens": 1536993,
+      "total_tokens": 12818290
+    },
+    "B": {
+      "calls": 1899,
+      "input_tokens": 6462039,
+      "output_tokens": 981458,
+      "total_tokens": 7443497
+    }
+  }
+}

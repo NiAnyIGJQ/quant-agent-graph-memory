@@ -1,0 +1,139 @@
+
+================================================================================
+[LOGGING] 日志已启用，保存到: D:\BTC_ACE\logs\backtest_20260108_142118.log
+================================================================================
+2026-01-08 14:21:18 - root - INFO - 程序启动于: 2026-01-08 14:21:18
+2026-01-08 14:21:19 - ace_trading.LSTM.vector_database - INFO -  Model loaded from D:\BTC_ACE\ace_trading\LSTM\models\btc_lstm_attn_model_2024-06-01.pth
+2026-01-08 14:21:19 - ace_trading.LSTM.vector_database - INFO -  VectorDatabase initialized on cuda
+2026-01-08 14:21:19 - ace_trading.LSTM.vector_database - INFO -  Vector database cleared
+2026-01-08 14:21:19 - ace_trading.graph.quant_graph_manager - INFO - Connected to Neo4j Database.
+2026-01-08 14:21:21 - ace_trading.graph.quant_graph_manager - WARNING - ⚠️ Database has been CLEARED (Nodes and Relationships removed).
+2026-01-08 14:21:21 - ace_trading.graph.quant_graph_manager - INFO - Constraint executed: CREATE CONSTRAINT constraint_state_unique IF NOT EXISTS FOR (s:State) REQUIRE s.name IS UNIQUE
+2026-01-08 14:21:21 - ace_trading.graph.quant_graph_manager - INFO - Constraint executed: CREATE CONSTRAINT constraint_pattern_unique IF NOT EXISTS FOR (p:Pattern) REQUIRE p.pattern_hash IS UNIQUE
+2026-01-08 14:21:21 - ace_trading.graph.quant_graph_manager - INFO - Constraint executed: CREATE CONSTRAINT constraint_decision_unique IF NOT EXISTS FOR (d:Decision) REQUIRE d.action IS UNIQUE
+2026-01-08 14:21:21 - ace_trading.graph.quant_graph_manager - INFO - Constraint executed: CREATE CONSTRAINT constraint_outcome_unique IF NOT EXISTS FOR (o:Outcome) REQUIRE o.class IS UNIQUE
+2026-01-08 14:21:21 - ace_trading.graph.quant_graph_manager - INFO - Constraint executed: CREATE CONSTRAINT constraint_event_unique IF NOT EXISTS FOR (e:Event) REQUIRE e.event_id IS UNIQUE
+2026-01-08 14:21:21 - ace_trading.graph.quant_graph_manager - INFO - Index executed: CREATE INDEX index_event_timestamp IF NOT EXISTS FOR (e:Event) ON (e.timestamp)
+2026-01-08 14:21:21 - ace_trading.graph.quant_graph_manager - INFO - Index executed: CREATE INDEX index_pattern_weight IF NOT EXISTS FOR (p:Pattern) ON (p.weight)
+2026-01-08 14:21:21 - ace_trading.graph.quant_graph_manager - INFO - Seeded Decision and Outcome enums.
+2026-01-08 14:21:23 - ace_trading.LSTM.vector_database - WARNING -  Vector database is empty
+2026-01-08 14:21:32 - httpx - INFO - HTTP Request: POST http://10.13.66.5:20153/v1/chat/completions "HTTP/1.1 200 OK"
+2026-01-08 14:21:36 - httpx - INFO - HTTP Request: POST http://10.13.66.5:20153/v1/chat/completions "HTTP/1.1 200 OK"
+2026-01-08 14:21:39 - httpx - INFO - HTTP Request: POST http://10.13.66.5:20153/v1/chat/completions "HTTP/1.1 200 OK"
+2026-01-08 14:21:39 - ace_trading.LSTM.vector_database - WARNING -  Vector database is empty
+2026-01-08 14:21:49 - httpx - INFO - HTTP Request: POST http://10.13.66.5:20153/v1/chat/completions "HTTP/1.1 200 OK"
+2026-01-08 14:21:53 - httpx - INFO - HTTP Request: POST http://10.13.66.5:20153/v1/chat/completions "HTTP/1.1 200 OK"
+2026-01-08 14:21:56 - httpx - INFO - HTTP Request: POST http://10.13.66.5:20153/v1/chat/completions "HTTP/1.1 200 OK"
+2026-01-08 14:21:56 - ace_trading.graph.quant_graph_manager - INFO - [INSERT_ENSURE_SORTED] Final core_logic_states (sorted): ['Funding_Rate_Bullish', 'MTF_Alignment_Bullish', 'Momentum_Extreme_4H', 'Price_AtResistance_Daily', 'Price_Extreme_Weekly', 'Price_NearSupport_4H', 'Price_NearWeeklyResistance', 'RSI_Overbought_4H', 'Trend_Uptrend_4H', 'Trend_Uptrend_Daily', 'Trend_Uptrend_Weekly', 'Volume_Confirmation_Daily', 'Volume_Spike_4H']
+2026-01-08 14:21:56 - ace_trading.graph.quant_graph_manager - INFO - [HASH_GENERATION] Input states: ['Funding_Rate_Bullish', 'MTF_Alignment_Bullish', 'Momentum_Extreme_4H', 'Price_AtResistance_Daily', 'Price_Extreme_Weekly', 'Price_NearSupport_4H', 'Price_NearWeeklyResistance', 'RSI_Overbought_4H', 'Trend_Uptrend_4H', 'Trend_Uptrend_Daily', 'Trend_Uptrend_Weekly', 'Volume_Confirmation_Daily', 'Volume_Spike_4H']
+2026-01-08 14:21:56 - ace_trading.graph.quant_graph_manager - INFO - [HASH_GENERATION] Sorted states: ['Funding_Rate_Bullish', 'MTF_Alignment_Bullish', 'Momentum_Extreme_4H', 'Price_AtResistance_Daily', 'Price_Extreme_Weekly', 'Price_NearSupport_4H', 'Price_NearWeeklyResistance', 'RSI_Overbought_4H', 'Trend_Uptrend_4H', 'Trend_Uptrend_Daily', 'Trend_Uptrend_Weekly', 'Volume_Confirmation_Daily', 'Volume_Spike_4H']
+2026-01-08 14:21:56 - ace_trading.graph.quant_graph_manager - INFO - [HASH_GENERATION] Combined string: Funding_Rate_Bullish_MTF_Alignment_Bullish_Momentum_Extreme_4H_Price_AtResistance_Daily_Price_Extreme_Weekly_Price_NearSupport_4H_Price_NearWeeklyResistance_RSI_Overbought_4H_Trend_Uptrend_4H_Trend_Uptrend_Daily_Trend_Uptrend_Weekly_Volume_Confirmation_Daily_Volume_Spike_4H
+2026-01-08 14:21:57 - ace_trading.graph.quant_graph_manager - INFO - [HASH_GENERATION] Generated Hash: 93eda7ed4b2094f52b08a73eba557b07
+2026-01-08 14:21:57 - ace_trading.graph.quant_graph_manager - INFO - Trade Event 20241106_160000_P inserted successfully with Pattern 93eda7ed4b2094f52b08a73eba557b07.
+2026-01-08 14:22:07 - httpx - INFO - HTTP Request: POST http://10.13.66.5:20153/v1/chat/completions "HTTP/1.1 200 OK"
+2026-01-08 14:22:11 - httpx - INFO - HTTP Request: POST http://10.13.66.5:20153/v1/chat/completions "HTTP/1.1 200 OK"
+2026-01-08 14:22:14 - httpx - INFO - HTTP Request: POST http://10.13.66.5:20153/v1/chat/completions "HTTP/1.1 200 OK"
+2026-01-08 14:22:25 - httpx - INFO - HTTP Request: POST http://10.13.66.5:20153/v1/chat/completions "HTTP/1.1 200 OK"
+2026-01-08 14:22:29 - httpx - INFO - HTTP Request: POST http://10.13.66.5:20153/v1/chat/completions "HTTP/1.1 200 OK"
+2026-01-08 14:22:31 - httpx - INFO - HTTP Request: POST http://10.13.66.5:20153/v1/chat/completions "HTTP/1.1 200 OK"
+2026-01-08 14:22:44 - httpx - INFO - HTTP Request: POST http://10.13.66.5:20153/v1/chat/completions "HTTP/1.1 200 OK"
+2026-01-08 14:22:48 - httpx - INFO - HTTP Request: POST http://10.13.66.5:20153/v1/chat/completions "HTTP/1.1 200 OK"
+2026-01-08 14:22:52 - httpx - INFO - HTTP Request: POST http://10.13.66.5:20153/v1/chat/completions "HTTP/1.1 200 OK"
+2026-01-08 14:22:52 - ace_trading.graph.quant_graph_manager - INFO - [INSERT_ENSURE_SORTED] Final core_logic_states (sorted): ['MACD_BullishButDecaying_4H', 'MTF_Alignment_Bullish', 'MTF_Conflict_Bearish', 'Price_AtResistance_4H', 'Price_AtResistance_Daily', 'Price_NearResistance_Weekly', 'RSI_Overbought_4H', 'RSI_Overbought_Daily', 'Trend_Consolidation_Monthly', 'Trend_Uptrend_4H', 'Trend_Uptrend_Daily', 'Trend_Uptrend_Weekly', 'Volume_Declining_Daily', 'Volume_Spike_4H']
+2026-01-08 14:22:52 - ace_trading.graph.quant_graph_manager - INFO - [HASH_GENERATION] Input states: ['MACD_BullishButDecaying_4H', 'MTF_Alignment_Bullish', 'MTF_Conflict_Bearish', 'Price_AtResistance_4H', 'Price_AtResistance_Daily', 'Price_NearResistance_Weekly', 'RSI_Overbought_4H', 'RSI_Overbought_Daily', 'Trend_Consolidation_Monthly', 'Trend_Uptrend_4H', 'Trend_Uptrend_Daily', 'Trend_Uptrend_Weekly', 'Volume_Declining_Daily', 'Volume_Spike_4H']
+2026-01-08 14:22:52 - ace_trading.graph.quant_graph_manager - INFO - [HASH_GENERATION] Sorted states: ['MACD_BullishButDecaying_4H', 'MTF_Alignment_Bullish', 'MTF_Conflict_Bearish', 'Price_AtResistance_4H', 'Price_AtResistance_Daily', 'Price_NearResistance_Weekly', 'RSI_Overbought_4H', 'RSI_Overbought_Daily', 'Trend_Consolidation_Monthly', 'Trend_Uptrend_4H', 'Trend_Uptrend_Daily', 'Trend_Uptrend_Weekly', 'Volume_Declining_Daily', 'Volume_Spike_4H']
+2026-01-08 14:22:52 - ace_trading.graph.quant_graph_manager - INFO - [HASH_GENERATION] Combined string: MACD_BullishButDecaying_4H_MTF_Alignment_Bullish_MTF_Conflict_Bearish_Price_AtResistance_4H_Price_AtResistance_Daily_Price_NearResistance_Weekly_RSI_Overbought_4H_RSI_Overbought_Daily_Trend_Consolidation_Monthly_Trend_Uptrend_4H_Trend_Uptrend_Daily_Trend_Uptrend_Weekly_Volume_Declining_Daily_Volume_Spike_4H
+2026-01-08 14:22:52 - ace_trading.graph.quant_graph_manager - INFO - [HASH_GENERATION] Generated Hash: 9635a3f5192f1060ab7f6da1f2d7f46f
+2026-01-08 14:22:52 - ace_trading.graph.quant_graph_manager - INFO - Trade Event 20241107_040000_P inserted successfully with Pattern 9635a3f5192f1060ab7f6da1f2d7f46f.
+2026-01-08 14:23:04 - httpx - INFO - HTTP Request: POST http://10.13.66.5:20153/v1/chat/completions "HTTP/1.1 200 OK"
+2026-01-08 14:23:07 - httpx - INFO - HTTP Request: POST http://10.13.66.5:20153/v1/chat/completions "HTTP/1.1 200 OK"
+2026-01-08 14:23:10 - httpx - INFO - HTTP Request: POST http://10.13.66.5:20153/v1/chat/completions "HTTP/1.1 200 OK"
+2026-01-08 14:23:25 - httpx - INFO - HTTP Request: POST http://10.13.66.5:20153/v1/chat/completions "HTTP/1.1 200 OK"
+2026-01-08 14:23:29 - httpx - INFO - HTTP Request: POST http://10.13.66.5:20153/v1/chat/completions "HTTP/1.1 200 OK"
+2026-01-08 14:23:31 - httpx - INFO - HTTP Request: POST http://10.13.66.5:20153/v1/chat/completions "HTTP/1.1 200 OK"
+2026-01-08 14:23:40 - httpx - INFO - HTTP Request: POST http://10.13.66.5:20153/v1/chat/completions "HTTP/1.1 200 OK"
+2026-01-08 14:23:44 - httpx - INFO - HTTP Request: POST http://10.13.66.5:20153/v1/chat/completions "HTTP/1.1 200 OK"
+2026-01-08 14:23:47 - httpx - INFO - HTTP Request: POST http://10.13.66.5:20153/v1/chat/completions "HTTP/1.1 200 OK"
+2026-01-08 14:23:57 - httpx - INFO - HTTP Request: POST http://10.13.66.5:20153/v1/chat/completions "HTTP/1.1 200 OK"
+2026-01-08 14:24:01 - httpx - INFO - HTTP Request: POST http://10.13.66.5:20153/v1/chat/completions "HTTP/1.1 200 OK"
+2026-01-08 14:24:04 - httpx - INFO - HTTP Request: POST http://10.13.66.5:20153/v1/chat/completions "HTTP/1.1 200 OK"
+2026-01-08 14:24:14 - httpx - INFO - HTTP Request: POST http://10.13.66.5:20153/v1/chat/completions "HTTP/1.1 200 OK"
+2026-01-08 14:24:18 - httpx - INFO - HTTP Request: POST http://10.13.66.5:20153/v1/chat/completions "HTTP/1.1 200 OK"
+2026-01-08 14:24:21 - httpx - INFO - HTTP Request: POST http://10.13.66.5:20153/v1/chat/completions "HTTP/1.1 200 OK"
+2026-01-08 14:24:29 - httpx - INFO - HTTP Request: POST http://10.13.66.5:20153/v1/chat/completions "HTTP/1.1 200 OK"
+2026-01-08 14:24:33 - httpx - INFO - HTTP Request: POST http://10.13.66.5:20153/v1/chat/completions "HTTP/1.1 200 OK"
+2026-01-08 14:24:37 - httpx - INFO - HTTP Request: POST http://10.13.66.5:20153/v1/chat/completions "HTTP/1.1 200 OK"
+2026-01-08 14:24:47 - httpx - INFO - HTTP Request: POST http://10.13.66.5:20153/v1/chat/completions "HTTP/1.1 200 OK"
+2026-01-08 14:24:50 - httpx - INFO - HTTP Request: POST http://10.13.66.5:20153/v1/chat/completions "HTTP/1.1 200 OK"
+2026-01-08 14:24:53 - httpx - INFO - HTTP Request: POST http://10.13.66.5:20153/v1/chat/completions "HTTP/1.1 200 OK"
+2026-01-08 14:25:04 - httpx - INFO - HTTP Request: POST http://10.13.66.5:20153/v1/chat/completions "HTTP/1.1 200 OK"
+2026-01-08 14:25:08 - httpx - INFO - HTTP Request: POST http://10.13.66.5:20153/v1/chat/completions "HTTP/1.1 200 OK"
+2026-01-08 14:25:11 - httpx - INFO - HTTP Request: POST http://10.13.66.5:20153/v1/chat/completions "HTTP/1.1 200 OK"
+2026-01-08 14:25:20 - httpx - INFO - HTTP Request: POST http://10.13.66.5:20153/v1/chat/completions "HTTP/1.1 200 OK"
+2026-01-08 14:25:24 - httpx - INFO - HTTP Request: POST http://10.13.66.5:20153/v1/chat/completions "HTTP/1.1 200 OK"
+2026-01-08 14:25:28 - httpx - INFO - HTTP Request: POST http://10.13.66.5:20153/v1/chat/completions "HTTP/1.1 200 OK"
+2026-01-08 14:25:36 - httpx - INFO - HTTP Request: POST http://10.13.66.5:20153/v1/chat/completions "HTTP/1.1 200 OK"
+2026-01-08 14:25:41 - httpx - INFO - HTTP Request: POST http://10.13.66.5:20153/v1/chat/completions "HTTP/1.1 200 OK"
+2026-01-08 14:25:44 - httpx - INFO - HTTP Request: POST http://10.13.66.5:20153/v1/chat/completions "HTTP/1.1 200 OK"
+2026-01-08 14:25:44 - ace_trading.graph.quant_graph_manager - INFO - [INSERT_ENSURE_SORTED] Final core_logic_states (sorted): ['MACD_Bullish_Divergence_4H', 'MTF_Alignment_Bullish', 'MTF_Conflict_Bearish', 'Price_AtResistance_4H', 'Price_AtResistance_Daily', 'Price_Consolidation_Monthly', 'Price_NearResistance_Weekly', 'RSI_Overbought_4H', 'Trend_Uptrend_4H', 'Trend_Uptrend_Daily', 'Trend_Uptrend_Monthly', 'Trend_Uptrend_Weekly', 'Volume_Confirmation_Daily', 'Volume_Declining_4H', 'Volume_Spike_Weekly']
+2026-01-08 14:25:44 - ace_trading.graph.quant_graph_manager - INFO - [HASH_GENERATION] Input states: ['MACD_Bullish_Divergence_4H', 'MTF_Alignment_Bullish', 'MTF_Conflict_Bearish', 'Price_AtResistance_4H', 'Price_AtResistance_Daily', 'Price_Consolidation_Monthly', 'Price_NearResistance_Weekly', 'RSI_Overbought_4H', 'Trend_Uptrend_4H', 'Trend_Uptrend_Daily', 'Trend_Uptrend_Monthly', 'Trend_Uptrend_Weekly', 'Volume_Confirmation_Daily', 'Volume_Declining_4H', 'Volume_Spike_Weekly']
+2026-01-08 14:25:44 - ace_trading.graph.quant_graph_manager - INFO - [HASH_GENERATION] Sorted states: ['MACD_Bullish_Divergence_4H', 'MTF_Alignment_Bullish', 'MTF_Conflict_Bearish', 'Price_AtResistance_4H', 'Price_AtResistance_Daily', 'Price_Consolidation_Monthly', 'Price_NearResistance_Weekly', 'RSI_Overbought_4H', 'Trend_Uptrend_4H', 'Trend_Uptrend_Daily', 'Trend_Uptrend_Monthly', 'Trend_Uptrend_Weekly', 'Volume_Confirmation_Daily', 'Volume_Declining_4H', 'Volume_Spike_Weekly']
+2026-01-08 14:25:44 - ace_trading.graph.quant_graph_manager - INFO - [HASH_GENERATION] Combined string: MACD_Bullish_Divergence_4H_MTF_Alignment_Bullish_MTF_Conflict_Bearish_Price_AtResistance_4H_Price_AtResistance_Daily_Price_Consolidation_Monthly_Price_NearResistance_Weekly_RSI_Overbought_4H_Trend_Uptrend_4H_Trend_Uptrend_Daily_Trend_Uptrend_Monthly_Trend_Uptrend_Weekly_Volume_Confirmation_Daily_Volume_Declining_4H_Volume_Spike_Weekly
+2026-01-08 14:25:44 - ace_trading.graph.quant_graph_manager - INFO - [HASH_GENERATION] Generated Hash: 866e7d8dfca718da2d3ec97582c64010
+2026-01-08 14:25:44 - ace_trading.graph.quant_graph_manager - INFO - Trade Event 20241108_120000_P inserted successfully with Pattern 866e7d8dfca718da2d3ec97582c64010.
+2026-01-08 14:25:53 - httpx - INFO - HTTP Request: POST http://10.13.66.5:20153/v1/chat/completions "HTTP/1.1 200 OK"
+2026-01-08 14:25:57 - httpx - INFO - HTTP Request: POST http://10.13.66.5:20153/v1/chat/completions "HTTP/1.1 200 OK"
+2026-01-08 14:25:59 - httpx - INFO - HTTP Request: POST http://10.13.66.5:20153/v1/chat/completions "HTTP/1.1 200 OK"
+2026-01-08 14:26:09 - httpx - INFO - HTTP Request: POST http://10.13.66.5:20153/v1/chat/completions "HTTP/1.1 200 OK"
+2026-01-08 14:26:13 - httpx - INFO - HTTP Request: POST http://10.13.66.5:20153/v1/chat/completions "HTTP/1.1 200 OK"
+2026-01-08 14:26:16 - httpx - INFO - HTTP Request: POST http://10.13.66.5:20153/v1/chat/completions "HTTP/1.1 200 OK"
+2026-01-08 14:26:25 - httpx - INFO - HTTP Request: POST http://10.13.66.5:20153/v1/chat/completions "HTTP/1.1 200 OK"
+2026-01-08 14:26:29 - httpx - INFO - HTTP Request: POST http://10.13.66.5:20153/v1/chat/completions "HTTP/1.1 200 OK"
+2026-01-08 14:26:32 - httpx - INFO - HTTP Request: POST http://10.13.66.5:20153/v1/chat/completions "HTTP/1.1 200 OK"
+2026-01-08 14:26:42 - httpx - INFO - HTTP Request: POST http://10.13.66.5:20153/v1/chat/completions "HTTP/1.1 200 OK"
+2026-01-08 14:26:46 - httpx - INFO - HTTP Request: POST http://10.13.66.5:20153/v1/chat/completions "HTTP/1.1 200 OK"
+2026-01-08 14:26:49 - httpx - INFO - HTTP Request: POST http://10.13.66.5:20153/v1/chat/completions "HTTP/1.1 200 OK"
+2026-01-08 14:26:49 - ace_trading.graph.quant_graph_manager - INFO - [INSERT_ENSURE_SORTED] Final core_logic_states (sorted): ['MACD_Bearish_Divergence_4H', 'MTF_Conflict_Bearish', 'Price_AtResistance_Daily', 'Price_Extreme_Weekly', 'Price_NearResistance_Weekly', 'RSI_Overbought_4H', 'Trend_Reversal_Implied_4H', 'Trend_Uptrend_Daily', 'Trend_Uptrend_Weekly', 'Volume_Declining_4H', 'Volume_Spike_Daily', 'Volume_Spike_Weekly']
+2026-01-08 14:26:49 - ace_trading.graph.quant_graph_manager - INFO - [HASH_GENERATION] Input states: ['MACD_Bearish_Divergence_4H', 'MTF_Conflict_Bearish', 'Price_AtResistance_Daily', 'Price_Extreme_Weekly', 'Price_NearResistance_Weekly', 'RSI_Overbought_4H', 'Trend_Reversal_Implied_4H', 'Trend_Uptrend_Daily', 'Trend_Uptrend_Weekly', 'Volume_Declining_4H', 'Volume_Spike_Daily', 'Volume_Spike_Weekly']
+2026-01-08 14:26:49 - ace_trading.graph.quant_graph_manager - INFO - [HASH_GENERATION] Sorted states: ['MACD_Bearish_Divergence_4H', 'MTF_Conflict_Bearish', 'Price_AtResistance_Daily', 'Price_Extreme_Weekly', 'Price_NearResistance_Weekly', 'RSI_Overbought_4H', 'Trend_Reversal_Implied_4H', 'Trend_Uptrend_Daily', 'Trend_Uptrend_Weekly', 'Volume_Declining_4H', 'Volume_Spike_Daily', 'Volume_Spike_Weekly']
+2026-01-08 14:26:49 - ace_trading.graph.quant_graph_manager - INFO - [HASH_GENERATION] Combined string: MACD_Bearish_Divergence_4H_MTF_Conflict_Bearish_Price_AtResistance_Daily_Price_Extreme_Weekly_Price_NearResistance_Weekly_RSI_Overbought_4H_Trend_Reversal_Implied_4H_Trend_Uptrend_Daily_Trend_Uptrend_Weekly_Volume_Declining_4H_Volume_Spike_Daily_Volume_Spike_Weekly
+2026-01-08 14:26:49 - ace_trading.graph.quant_graph_manager - INFO - [HASH_GENERATION] Generated Hash: 2a897d0f31e972f9dc218abfa2e799f5
+2026-01-08 14:26:49 - ace_trading.graph.quant_graph_manager - INFO - Trade Event 20241109_200000_P inserted successfully with Pattern 2a897d0f31e972f9dc218abfa2e799f5.
+2026-01-08 14:26:59 - httpx - INFO - HTTP Request: POST http://10.13.66.5:20153/v1/chat/completions "HTTP/1.1 200 OK"
+2026-01-08 14:27:03 - httpx - INFO - HTTP Request: POST http://10.13.66.5:20153/v1/chat/completions "HTTP/1.1 200 OK"
+2026-01-08 14:27:05 - httpx - INFO - HTTP Request: POST http://10.13.66.5:20153/v1/chat/completions "HTTP/1.1 200 OK"
+2026-01-08 14:27:14 - httpx - INFO - HTTP Request: POST http://10.13.66.5:20153/v1/chat/completions "HTTP/1.1 200 OK"
+2026-01-08 14:27:18 - httpx - INFO - HTTP Request: POST http://10.13.66.5:20153/v1/chat/completions "HTTP/1.1 200 OK"
+2026-01-08 14:27:21 - httpx - INFO - HTTP Request: POST http://10.13.66.5:20153/v1/chat/completions "HTTP/1.1 200 OK"
+2026-01-08 14:27:34 - httpx - INFO - HTTP Request: POST http://10.13.66.5:20153/v1/chat/completions "HTTP/1.1 200 OK"
+2026-01-08 14:27:39 - httpx - INFO - HTTP Request: POST http://10.13.66.5:20153/v1/chat/completions "HTTP/1.1 200 OK"
+2026-01-08 14:27:43 - httpx - INFO - HTTP Request: POST http://10.13.66.5:20153/v1/chat/completions "HTTP/1.1 200 OK"
+2026-01-08 14:27:57 - httpx - INFO - HTTP Request: POST http://10.13.66.5:20153/v1/chat/completions "HTTP/1.1 200 OK"
+2026-01-08 14:28:02 - httpx - INFO - HTTP Request: POST http://10.13.66.5:20153/v1/chat/completions "HTTP/1.1 200 OK"
+2026-01-08 14:28:05 - httpx - INFO - HTTP Request: POST http://10.13.66.5:20153/v1/chat/completions "HTTP/1.1 200 OK"
+2026-01-08 14:28:15 - httpx - INFO - HTTP Request: POST http://10.13.66.5:20153/v1/chat/completions "HTTP/1.1 200 OK"
+2026-01-08 14:28:20 - httpx - INFO - HTTP Request: POST http://10.13.66.5:20153/v1/chat/completions "HTTP/1.1 200 OK"
+2026-01-08 14:28:23 - httpx - INFO - HTTP Request: POST http://10.13.66.5:20153/v1/chat/completions "HTTP/1.1 200 OK"
+2026-01-08 14:28:35 - httpx - INFO - HTTP Request: POST http://10.13.66.5:20153/v1/chat/completions "HTTP/1.1 200 OK"
+2026-01-08 14:28:39 - httpx - INFO - HTTP Request: POST http://10.13.66.5:20153/v1/chat/completions "HTTP/1.1 200 OK"
+2026-01-08 14:28:42 - httpx - INFO - HTTP Request: POST http://10.13.66.5:20153/v1/chat/completions "HTTP/1.1 200 OK"
+2026-01-08 14:28:42 - ace_trading.graph.quant_graph_manager - INFO - [INSERT_ENSURE_SORTED] Final core_logic_states (sorted): ['MACD_Bullish_Confirmation_4H', 'MTF_Alignment_Bullish', 'MarketEmotion_Neutral_WithStrongMomentum', 'Price_AtMidHigh_Weekly', 'Price_AtResistance_4H', 'Price_NearResistance_Daily', 'RSI_Overbought_4H', 'Trend_Uptrend_4H', 'Trend_Uptrend_Daily', 'Trend_Uptrend_Monthly', 'Trend_Uptrend_Weekly', 'Volume_Confirmation_Daily', 'Volume_Confirmation_Monthly', 'Volume_Spike_4H', 'Volume_Spike_Weekly']
+2026-01-08 14:28:42 - ace_trading.graph.quant_graph_manager - INFO - [HASH_GENERATION] Input states: ['MACD_Bullish_Confirmation_4H', 'MTF_Alignment_Bullish', 'MarketEmotion_Neutral_WithStrongMomentum', 'Price_AtMidHigh_Weekly', 'Price_AtResistance_4H', 'Price_NearResistance_Daily', 'RSI_Overbought_4H', 'Trend_Uptrend_4H', 'Trend_Uptrend_Daily', 'Trend_Uptrend_Monthly', 'Trend_Uptrend_Weekly', 'Volume_Confirmation_Daily', 'Volume_Confirmation_Monthly', 'Volume_Spike_4H', 'Volume_Spike_Weekly']
+2026-01-08 14:28:42 - ace_trading.graph.quant_graph_manager - INFO - [HASH_GENERATION] Sorted states: ['MACD_Bullish_Confirmation_4H', 'MTF_Alignment_Bullish', 'MarketEmotion_Neutral_WithStrongMomentum', 'Price_AtMidHigh_Weekly', 'Price_AtResistance_4H', 'Price_NearResistance_Daily', 'RSI_Overbought_4H', 'Trend_Uptrend_4H', 'Trend_Uptrend_Daily', 'Trend_Uptrend_Monthly', 'Trend_Uptrend_Weekly', 'Volume_Confirmation_Daily', 'Volume_Confirmation_Monthly', 'Volume_Spike_4H', 'Volume_Spike_Weekly']
+2026-01-08 14:28:42 - ace_trading.graph.quant_graph_manager - INFO - [HASH_GENERATION] Combined string: MACD_Bullish_Confirmation_4H_MTF_Alignment_Bullish_MarketEmotion_Neutral_WithStrongMomentum_Price_AtMidHigh_Weekly_Price_AtResistance_4H_Price_NearResistance_Daily_RSI_Overbought_4H_Trend_Uptrend_4H_Trend_Uptrend_Daily_Trend_Uptrend_Monthly_Trend_Uptrend_Weekly_Volume_Confirmation_Daily_Volume_Confirmation_Monthly_Volume_Spike_4H_Volume_Spike_Weekly
+2026-01-08 14:28:42 - ace_trading.graph.quant_graph_manager - INFO - [HASH_GENERATION] Generated Hash: 67228a7b9e8c3bea33500204b24ef54f
+2026-01-08 14:28:43 - ace_trading.graph.quant_graph_manager - INFO - Trade Event 20241110_160000_P inserted successfully with Pattern 67228a7b9e8c3bea33500204b24ef54f.
+2026-01-08 14:28:55 - httpx - INFO - HTTP Request: POST http://10.13.66.5:20153/v1/chat/completions "HTTP/1.1 200 OK"
+2026-01-08 14:28:59 - httpx - INFO - HTTP Request: POST http://10.13.66.5:20153/v1/chat/completions "HTTP/1.1 200 OK"
+2026-01-08 14:29:03 - httpx - INFO - HTTP Request: POST http://10.13.66.5:20153/v1/chat/completions "HTTP/1.1 200 OK"
+2026-01-08 14:29:15 - httpx - INFO - HTTP Request: POST http://10.13.66.5:20153/v1/chat/completions "HTTP/1.1 200 OK"
+2026-01-08 14:29:20 - httpx - INFO - HTTP Request: POST http://10.13.66.5:20153/v1/chat/completions "HTTP/1.1 200 OK"
+2026-01-08 14:29:25 - httpx - INFO - HTTP Request: POST http://10.13.66.5:20153/v1/chat/completions "HTTP/1.1 200 OK"
+2026-01-08 14:29:25 - ace_trading.graph.quant_graph_manager - INFO - [INSERT_ENSURE_SORTED] Final core_logic_states (sorted): ['MTF_Alignment_Bullish', 'Momentum_Extreme_4H', 'Price_AtResistance_Daily', 'Price_Extreme_Weekly', 'Price_NearSupport_4H', 'Price_NearWeeklyResistance', 'RSI_Overbought_4H', 'RSI_Overbought_Daily', 'Trend_Uptrend_1M', 'Trend_Uptrend_4H', 'Trend_Uptrend_Daily', 'Trend_Uptrend_Weekly', 'Volume_Confirmation_Daily', 'Volume_Spike_4H']
+2026-01-08 14:29:25 - ace_trading.graph.quant_graph_manager - INFO - [HASH_GENERATION] Input states: ['MTF_Alignment_Bullish', 'Momentum_Extreme_4H', 'Price_AtResistance_Daily', 'Price_Extreme_Weekly', 'Price_NearSupport_4H', 'Price_NearWeeklyResistance', 'RSI_Overbought_4H', 'RSI_Overbought_Daily', 'Trend_Uptrend_1M', 'Trend_Uptrend_4H', 'Trend_Uptrend_Daily', 'Trend_Uptrend_Weekly', 'Volume_Confirmation_Daily', 'Volume_Spike_4H']
+2026-01-08 14:29:25 - ace_trading.graph.quant_graph_manager - INFO - [HASH_GENERATION] Sorted states: ['MTF_Alignment_Bullish', 'Momentum_Extreme_4H', 'Price_AtResistance_Daily', 'Price_Extreme_Weekly', 'Price_NearSupport_4H', 'Price_NearWeeklyResistance', 'RSI_Overbought_4H', 'RSI_Overbought_Daily', 'Trend_Uptrend_1M', 'Trend_Uptrend_4H', 'Trend_Uptrend_Daily', 'Trend_Uptrend_Weekly', 'Volume_Confirmation_Daily', 'Volume_Spike_4H']
+2026-01-08 14:29:25 - ace_trading.graph.quant_graph_manager - INFO - [HASH_GENERATION] Combined string: MTF_Alignment_Bullish_Momentum_Extreme_4H_Price_AtResistance_Daily_Price_Extreme_Weekly_Price_NearSupport_4H_Price_NearWeeklyResistance_RSI_Overbought_4H_RSI_Overbought_Daily_Trend_Uptrend_1M_Trend_Uptrend_4H_Trend_Uptrend_Daily_Trend_Uptrend_Weekly_Volume_Confirmation_Daily_Volume_Spike_4H
+2026-01-08 14:29:25 - ace_trading.graph.quant_graph_manager - INFO - [HASH_GENERATION] Generated Hash: 2c2bcdde7cd50f443c7afa7b11e4e09a
+2026-01-08 14:29:25 - ace_trading.graph.quant_graph_manager - INFO - Trade Event 20241111_160000_P inserted successfully with Pattern 2c2bcdde7cd50f443c7afa7b11e4e09a.
+2026-01-08 14:29:39 - httpx - INFO - HTTP Request: POST http://10.13.66.5:20153/v1/chat/completions "HTTP/1.1 200 OK"
+2026-01-08 14:29:43 - httpx - INFO - HTTP Request: POST http://10.13.66.5:20153/v1/chat/completions "HTTP/1.1 200 OK"

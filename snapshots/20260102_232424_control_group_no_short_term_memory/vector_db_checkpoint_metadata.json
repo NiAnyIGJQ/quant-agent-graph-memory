@@ -1,0 +1,11 @@
+{
+  "embed_dim": 128,
+  "hidden_dim": 512,
+  "num_layers": 3,
+  "input_win": 30,
+  "pred_win": 5,
+  "device": "cuda",
+  "saved_at": "2026-01-03T12:07:33.895355",
+  "total_vectors": 320,
+  "vector_dimension": 128
+}

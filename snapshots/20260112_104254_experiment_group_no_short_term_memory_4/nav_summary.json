@@ -1,0 +1,15 @@
+{
+  "total_days": 383,
+  "total_weeks": 55,
+  "total_months": 13,
+  "daily_avg_return": 0.01824523411689837,
+  "daily_std_return": 0.9155120300693107,
+  "best_day": 6.280051265039144,
+  "worst_day": -4.8411000907708885,
+  "weekly_avg_return": 0.07158995463797414,
+  "best_week": 7.637370919160635,
+  "worst_week": -8.78878331756332,
+  "monthly_avg_return": 0.181912028462554,
+  "best_month": 6.247942006793505,
+  "worst_month": -10.028655815268994
+}

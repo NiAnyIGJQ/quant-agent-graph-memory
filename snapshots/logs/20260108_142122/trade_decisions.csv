@@ -1,0 +1,26 @@
+timestamp,bar_count,decision_type,decision_price,decision_quantity,take_profit,stop_loss,decision_reason,order_status,order_executed_price,order_executed_size,position_before,position_after,realized_pnl,error_msg,notes
+2024-11-06T16:00:00,4421,LONG,75814.10,35.00%,78500.00,73200.00,基于Agent A的深度分析与历史模式匹配，当前市场呈现多周期共振的强势突破格局：4H/日线/周线趋势同步向上，MACD动量达历史峰值（934.32），日线量能处于20周期高位，价格逼近日线76388,PENDING,N/A,N/A,0.0000,N/A,N/A,,Decision made at bar 4421
+2024-11-06T20:00:00,,SYSTEM_ORDER,N/A,N/A,N/A,N/A,MARKET: Buy,FILLED,75814.20,0.4617,0.4617,0.4617,N/A,,MARKET order execution
+2024-11-07T00:00:00,,SYSTEM_ORDER,N/A,N/A,N/A,N/A,MARKET: Sell,FILLED,75584.90,-0.4617,0.0000,0.0000,N/A,,MARKET order execution
+2024-11-07T00:00:00,4422,CLOSE,N/A,N/A,N/A,N/A,Trade closed: LOSS,COMPLETED,N/A,N/A,0.0000,0.0000,-175.75,,"LONG trade closed, duration: 1 bars, outcome: LOSS"
+2024-11-07T04:00:00,4424,SHORT,74768.60,35.00%,72200.00,76300.00,基于Agent A的深度分析与历史模式匹配的辩证整合，当前市场呈现典型的‘高位放量滞涨+动能衰减+量能背离’结构（Pattern_Resistance_Confirmation_VolumeSpike,PENDING,N/A,N/A,0.0000,N/A,N/A,,Decision made at bar 4424
+2024-11-07T08:00:00,,SYSTEM_ORDER,N/A,N/A,N/A,N/A,MARKET: Sell,FILLED,74768.60,-0.4673,-0.4673,-0.4673,N/A,,MARKET order execution
+2024-11-07T16:00:00,,SYSTEM_ORDER,N/A,N/A,N/A,N/A,STOP_LOSS: Buy,FILLED,76300.00,0.4673,0.0000,0.0000,N/A,,STOP_LOSS order execution
+2024-11-07T16:00:00,4426,CLOSE,N/A,N/A,N/A,N/A,Trade closed: LOSS,COMPLETED,N/A,N/A,0.0000,0.0000,-786.20,,"SHORT trade closed, duration: 2 bars, outcome: LOSS"
+2024-11-08T12:00:00,4432,SHORT,76418.80,35.00%,73800.00,77200.00,基于Agent A的深度分析与历史模式匹配的辩证整合，当前市场呈现典型的‘Pattern_Reversal_Divergence_MACDVolume’结构：价格在4H周期逼近76848强阻力位（95,PENDING,N/A,N/A,0.0000,N/A,N/A,,Decision made at bar 4432
+2024-11-08T16:00:00,,SYSTEM_ORDER,N/A,N/A,N/A,N/A,MARKET: Sell,FILLED,76418.90,-0.4536,-0.4536,-0.4536,N/A,,MARKET order execution
+2024-11-09T12:00:00,,SYSTEM_ORDER,N/A,N/A,N/A,N/A,MARKET: Buy,FILLED,76489.30,0.4536,0.0000,0.0000,N/A,,MARKET order execution
+2024-11-09T12:00:00,4437,CLOSE,N/A,N/A,N/A,N/A,Trade closed: LOSS,COMPLETED,N/A,N/A,0.0000,0.0000,-102.24,,"SHORT trade closed, duration: 5 bars, outcome: LOSS"
+2024-11-09T20:00:00,4440,SHORT,76675.00,35.00%,73800.00,77200.00,基于Agent A的深度分析与历史模式匹配，当前4H周期呈现高概率反转信号：RSI_6达84.26（极端超买）、MACD柱状图连续10根转负、成交量骤降至702（近20K线最低），形成‘价升量缩+动能,PENDING,N/A,N/A,0.0000,N/A,N/A,,Decision made at bar 4440
+2024-11-10T00:00:00,,SYSTEM_ORDER,N/A,N/A,N/A,N/A,MARKET: Sell,FILLED,76675.10,-0.4516,-0.4516,-0.4516,N/A,,MARKET order execution
+2024-11-10T08:00:00,,SYSTEM_ORDER,N/A,N/A,N/A,N/A,MARKET: Buy,FILLED,78827.70,0.4516,0.0000,0.0000,N/A,,MARKET order execution
+2024-11-10T08:00:00,4442,CLOSE,N/A,N/A,N/A,N/A,Trade closed: LOSS,COMPLETED,N/A,N/A,0.0000,0.0000,-1042.37,,"SHORT trade closed, duration: 2 bars, outcome: LOSS"
+2024-11-10T16:00:00,4445,LONG,79742.90,35.00%,82500.00,77200.00,基于Agent A的深度分析与历史模式匹配，当前市场呈现罕见的多周期共振突破结构：4H RSI_6达86.38且价格未回调，MACD柱状图由负转正并放大至+160.90，成交量从741骤增至2978，,PENDING,N/A,N/A,0.0000,N/A,N/A,,Decision made at bar 4445
+2024-11-10T20:00:00,,SYSTEM_ORDER,N/A,N/A,N/A,N/A,MARKET: Buy,FILLED,79743.00,0.4297,0.4297,0.4297,N/A,,MARKET order execution
+2024-11-11T12:00:00,,SYSTEM_ORDER,N/A,N/A,N/A,N/A,TAKE_PROFIT: Sell,FILLED,82500.00,-0.4297,-0.4297,-0.4297,N/A,,TAKE_PROFIT order execution
+2024-11-11T12:00:00,,SYSTEM_ORDER,N/A,N/A,N/A,N/A,MARKET: Sell,FILLED,82136.00,-0.4297,-0.4297,-0.4297,N/A,,MARKET order execution
+2024-11-11T12:00:00,4449,CLOSE,N/A,N/A,N/A,N/A,Trade closed: WIN,COMPLETED,N/A,N/A,0.0000,0.0000,+1114.88,,"LONG trade closed, duration: 4 bars, outcome: WIN"
+2024-11-11T16:00:00,4451,SHORT,86091.60,35.00%,83500.00,87500.00,尽管Agent A的深度分析强调多周期共振与放量突破的高置信度（85%），但必须以历史数据为第一性原则：Pattern_Breakout_VolumeSpike_TrendConfirmation在完,PENDING,N/A,N/A,-0.4297,N/A,N/A,,Decision made at bar 4451
+2024-11-11T20:00:00,,SYSTEM_ORDER,N/A,N/A,N/A,N/A,MARKET: Buy,FILLED,86091.70,0.0342,-0.3955,-0.3955,N/A,,MARKET order execution
+2024-11-12T00:00:00,,SYSTEM_ORDER,N/A,N/A,N/A,N/A,MARKET: Buy,FILLED,88640.10,0.3955,0.0000,0.0000,N/A,,MARKET order execution
+2024-11-12T00:00:00,4452,CLOSE,N/A,N/A,N/A,N/A,Trade closed: LOSS,COMPLETED,N/A,N/A,0.0000,0.0000,-2781.59,,"SHORT trade closed, duration: 3 bars, outcome: LOSS"

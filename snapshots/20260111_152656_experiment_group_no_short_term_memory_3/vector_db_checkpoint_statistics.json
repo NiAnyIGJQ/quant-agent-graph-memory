@@ -1,0 +1,16 @@
+{
+  "vector_count": 363,
+  "vector_dimension": 128,
+  "timestamp_range": {
+    "start": "2024-11-07 04:00:00",
+    "end": "2025-11-20 20:00:00",
+    "duration_days": 378
+  },
+  "vector_stats": {
+    "mean": 0.017056744545698166,
+    "std": 0.37252071499824524,
+    "min": -1.65675950050354,
+    "max": 1.3569271564483643
+  },
+  "memory_usage_mb": 0.17724609375
+}

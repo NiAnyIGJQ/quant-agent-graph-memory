@@ -1,0 +1,436 @@
+timestamp,bar_count,decision_type,decision_price,decision_quantity,take_profit,stop_loss,decision_reason,order_status,order_executed_price,order_executed_size,position_before,position_after,realized_pnl,error_msg,notes
+2024-11-06T16:00:00,4421,LONG,75814.10,30.00%,80000.00,74500.00,基于Agent A的深度分析与历史模式Pattern_Breakout_Confirmed_MTF的高置信度（85%）判断，当前市场处于多周期（4H/日/周/月）多头共振的突破确认阶段，价格刚突破4H,PENDING,N/A,N/A,0.0000,N/A,N/A,,Decision made at bar 4421
+2024-11-06T20:00:00,,SYSTEM_ORDER,N/A,N/A,N/A,N/A,MARKET: Buy,FILLED,75814.20,0.3957,0.3957,0.3957,N/A,,MARKET order execution
+2024-11-07T00:00:00,4423,LONG,75040.00,15.00%,76388.00,74500.00,尽管Agent A的深度分析指出当前为‘阻力位动能衰竭+量价背离’的高概率短期反转信号（置信度85%），且RSI超买、MACD动能衰减、日线成交量骤降，但必须结合历史模式与当前市场结构进行辩证判断。当,PENDING,N/A,N/A,0.3957,N/A,N/A,,Decision made at bar 4423
+2024-11-07T04:00:00,,SYSTEM_ORDER,N/A,N/A,N/A,N/A,STOP_LOSS: Sell,FILLED,74500.00,-0.3957,-0.1965,-0.1965,N/A,,STOP_LOSS order execution
+2024-11-07T04:00:00,,SYSTEM_ORDER,N/A,N/A,N/A,N/A,MARKET: Sell,FILLED,75040.10,-0.1965,-0.1965,-0.1965,N/A,,MARKET order execution
+2024-11-07T04:00:00,4423,CLOSE,N/A,N/A,N/A,N/A,Trade closed: LOSS,COMPLETED,N/A,N/A,0.0000,0.0000,-579.52,,"LONG trade closed, duration: 2 bars, outcome: LOSS"
+2024-11-07T08:00:00,4425,SHORT,74752.00,22.00%,70000.00,76500.00,基于历史模式 Pattern_Reversal_Divergence_Volume 的0%胜率，表面看似无效，但Agent A的深度分析揭示其本质为‘高概率失败模式’——即在2021与2023 BTC,PENDING,N/A,N/A,-0.1965,N/A,N/A,,Decision made at bar 4425
+2024-11-07T12:00:00,,SYSTEM_ORDER,N/A,N/A,N/A,N/A,MARKET: Sell,FILLED,74751.90,-0.0962,-0.2927,-0.2927,N/A,,MARKET order execution
+2024-11-07T16:00:00,,SYSTEM_ORDER,N/A,N/A,N/A,N/A,STOP_LOSS: Buy,FILLED,76500.00,0.2927,0.0000,0.0000,N/A,,STOP_LOSS order execution
+2024-11-07T16:00:00,4426,CLOSE,N/A,N/A,N/A,N/A,Trade closed: LOSS,COMPLETED,N/A,N/A,0.0000,0.0000,-499.42,,"SHORT trade closed, duration: 3 bars, outcome: LOSS"
+2024-11-07T20:00:00,4428,SHORT,75860.30,35.00%,72500.00,76800.00,基于历史模式 Pattern_Reversal_Divergence_Volume 的100%匹配（13/13项）与Agent A的85%置信度深度分析，当前市场呈现多周期共振顶部背离：4H/日线/周,PENDING,N/A,N/A,0.0000,N/A,N/A,,Decision made at bar 4428
+2024-11-08T00:00:00,,SYSTEM_ORDER,N/A,N/A,N/A,N/A,MARKET: Sell,FILLED,75860.40,-0.4564,-0.4564,-0.4564,N/A,,MARKET order execution
+2024-11-08T16:00:00,,SYSTEM_ORDER,N/A,N/A,N/A,N/A,STOP_LOSS: Buy,FILLED,76800.00,0.4564,0.0000,0.0000,N/A,,STOP_LOSS order execution
+2024-11-08T16:00:00,4432,CLOSE,N/A,N/A,N/A,N/A,Trade closed: LOSS,COMPLETED,N/A,N/A,0.0000,0.0000,-498.50,,"SHORT trade closed, duration: 4 bars, outcome: LOSS"
+2024-11-09T04:00:00,4436,SHORT,76531.80,35.00%,73200.00,77000.00,基于Agent A的深度分析与历史模式匹配的辩证整合，当前市场呈现前所未有的'Pattern_Reversal_Divergence_VolumeCrash'结构：价格逼近4H/1D历史阻力位7717,PENDING,N/A,N/A,0.0000,N/A,N/A,,Decision made at bar 4436
+2024-11-09T08:00:00,,SYSTEM_ORDER,N/A,N/A,N/A,N/A,MARKET: Sell,FILLED,76531.80,-0.4501,-0.4501,-0.4501,N/A,,MARKET order execution
+2024-11-10T00:00:00,,SYSTEM_ORDER,N/A,N/A,N/A,N/A,STOP_LOSS: Buy,FILLED,77000.00,0.4501,0.0000,0.0000,N/A,,STOP_LOSS order execution
+2024-11-10T00:00:00,4440,CLOSE,N/A,N/A,N/A,N/A,Trade closed: LOSS,COMPLETED,N/A,N/A,0.0000,0.0000,-280.79,,"SHORT trade closed, duration: 4 bars, outcome: LOSS"
+2024-11-10T04:00:00,4442,LONG,78827.70,30.00%,80100.00,77000.00,基于Agent A的深度分析与历史模式匹配，当前市场呈现Pattern_Bull_MultiTimeframe_VolumeBreakout：4H、日线、周线三周期同步多头共振，价格逼近历史阻力位（7,PENDING,N/A,N/A,0.0000,N/A,N/A,,Decision made at bar 4442
+2024-11-10T08:00:00,,SYSTEM_ORDER,N/A,N/A,N/A,N/A,MARKET: Buy,FILLED,78827.70,0.3735,0.3735,0.3735,N/A,,MARKET order execution
+2024-11-10T12:00:00,,SYSTEM_ORDER,N/A,N/A,N/A,N/A,TAKE_PROFIT: Sell,FILLED,80100.00,-0.3735,0.0000,0.0000,N/A,,TAKE_PROFIT order execution
+2024-11-10T12:00:00,4443,CLOSE,N/A,N/A,N/A,N/A,Trade closed: WIN,COMPLETED,N/A,N/A,0.0000,0.0000,+415.85,,"LONG trade closed, duration: 1 bars, outcome: WIN"
+2024-11-10T16:00:00,4445,LONG,79742.90,100.00%,90260.00,78000.00,基于Agent A的深度分析与历史模式的辩证权衡，当前市场呈现多周期共振的多头趋势：4H、日线、周线、月线均处于明确上涨结构，4H MACD动能柱连续10根放大至+160.90，为近20周期最强反转信,PENDING,N/A,N/A,0.0000,N/A,N/A,,Decision made at bar 4445
+2024-11-10T20:00:00,,SYSTEM_ORDER,N/A,N/A,N/A,N/A,MARKET: Buy,FILLED,79743.00,1.2112,1.2112,1.2112,N/A,,MARKET order execution
+2024-11-12T08:00:00,4455,SHORT,87156.10,45.00%,84200.00,88500.00,当前市场处于历史模式 Pattern_Reversal_Divergence_Volume 的极端复制环境：4H/日线RSI均超买（93.46/91.37）、周线阻力93263已触顶、成交量虽高但未突,PENDING,N/A,N/A,1.2112,N/A,N/A,,Decision made at bar 4455
+2024-11-12T12:00:00,,SYSTEM_ORDER,N/A,N/A,N/A,N/A,MARKET: Sell,FILLED,87156.00,-1.7660,-0.5547,-0.5547,N/A,,MARKET order execution
+2024-11-12T12:00:00,4455,CLOSE,N/A,N/A,N/A,N/A,Trade closed: WIN,COMPLETED,N/A,N/A,0.0000,0.0000,+8776.65,,"SHORT trade closed, duration: 10 bars, outcome: WIN"
+2024-11-12T16:00:00,,SYSTEM_ORDER,N/A,N/A,N/A,N/A,STOP_LOSS: Buy,FILLED,88500.00,0.5547,0.0000,0.0000,N/A,,STOP_LOSS order execution
+2024-11-12T16:00:00,4456,CLOSE,N/A,N/A,N/A,N/A,Trade closed: LOSS,COMPLETED,N/A,N/A,0.0000,0.0000,-843.00,,"SHORT trade closed, duration: 1 bars, outcome: LOSS"
+2024-11-13T04:00:00,4460,SHORT,87357.60,35.00%,84200.00,88500.00,基于同事小明的深度分析（置信度85%）与历史模式Pattern_Resistance_KineticExhaustion的强共振，当前市场处于多周期阻力区（4H/日/周/月线均在80%+分位），RSI,PENDING,N/A,N/A,0.0000,N/A,N/A,,Decision made at bar 4460
+2024-11-13T08:00:00,,SYSTEM_ORDER,N/A,N/A,N/A,N/A,MARKET: Sell,FILLED,87357.70,-0.4267,-0.4267,-0.4267,N/A,,MARKET order execution
+2024-11-13T12:00:00,,SYSTEM_ORDER,N/A,N/A,N/A,N/A,STOP_LOSS: Buy,FILLED,88500.00,0.4267,0.0000,0.0000,N/A,,STOP_LOSS order execution
+2024-11-13T12:00:00,4461,CLOSE,N/A,N/A,N/A,N/A,Trade closed: LOSS,COMPLETED,N/A,N/A,0.0000,0.0000,-562.40,,"SHORT trade closed, duration: 1 bars, outcome: LOSS"
+2024-11-13T16:00:00,4463,SHORT,90176.90,35.00%,87000.00,91800.00,"基于历史模式与当前市场结构的辩证分析，我做出以下决策：
+
+1. **历史模式矛盾性分析**：
+   - 尽管历史模式 Pattern_Reversal_Divergence_Volume 匹配度高（9",PENDING,N/A,N/A,0.0000,N/A,N/A,,Decision made at bar 4463
+2024-11-13T20:00:00,,SYSTEM_ORDER,N/A,N/A,N/A,N/A,MARKET: Sell,FILLED,90176.80,-0.4111,-0.4111,-0.4111,N/A,,MARKET order execution
+2024-11-14T16:00:00,,SYSTEM_ORDER,N/A,N/A,N/A,N/A,MARKET: Buy,FILLED,87954.90,0.4111,0.0000,0.0000,N/A,,MARKET order execution
+2024-11-14T16:00:00,4468,CLOSE,N/A,N/A,N/A,N/A,Trade closed: WIN,COMPLETED,N/A,N/A,0.0000,0.0000,+839.25,,"SHORT trade closed, duration: 5 bars, outcome: WIN"
+2024-11-14T20:00:00,4470,SHORT,87330.00,35.00%,84200.00,88500.00,基于Agent A的深度分析与历史模式匹配的辩证整合，当前市场呈现高概率短期反转结构：4H周期RSI_6达95.57（历史极值）、MACD死叉、成交量萎缩至峰值1/4，三重动能衰竭信号构成经典顶部反转,PENDING,N/A,N/A,0.0000,N/A,N/A,,Decision made at bar 4470
+2024-11-15T00:00:00,,SYSTEM_ORDER,N/A,N/A,N/A,N/A,MARKET: Sell,FILLED,87330.00,-0.4279,-0.4279,-0.4279,N/A,,MARKET order execution
+2024-11-15T08:00:00,,SYSTEM_ORDER,N/A,N/A,N/A,N/A,STOP_LOSS: Buy,FILLED,88500.00,0.4279,0.0000,0.0000,N/A,,STOP_LOSS order execution
+2024-11-15T08:00:00,4472,CLOSE,N/A,N/A,N/A,N/A,Trade closed: LOSS,COMPLETED,N/A,N/A,0.0000,0.0000,-575.89,,"SHORT trade closed, duration: 2 bars, outcome: LOSS"
+2024-11-15T12:00:00,4474,SHORT,88439.90,35.00%,85800.00,91000.00,基于Agent A的深度分析与历史模式Pattern_Reversal_Divergence_Resist的高置信度（82.5%）信号，当前市场呈现多周期共振的顶部反转前兆：价格位于周线阻力93263,PENDING,N/A,N/A,0.0000,N/A,N/A,,Decision made at bar 4474
+2024-11-15T16:00:00,,SYSTEM_ORDER,N/A,N/A,N/A,N/A,MARKET: Sell,FILLED,88439.90,-0.4203,-0.4203,-0.4203,N/A,,MARKET order execution
+2024-11-15T20:00:00,,SYSTEM_ORDER,N/A,N/A,N/A,N/A,STOP_LOSS: Buy,FILLED,91000.00,0.4203,0.4203,0.4203,N/A,,STOP_LOSS order execution
+2024-11-15T20:00:00,,SYSTEM_ORDER,N/A,N/A,N/A,N/A,MARKET: Buy,FILLED,90374.80,0.4203,0.4203,0.4203,N/A,,MARKET order execution
+2024-11-15T20:00:00,4475,CLOSE,N/A,N/A,N/A,N/A,Trade closed: LOSS,COMPLETED,N/A,N/A,0.0000,0.0000,-1151.30,,"SHORT trade closed, duration: 1 bars, outcome: LOSS"
+2024-11-16T04:00:00,4478,LONG,91117.90,55.00%,93500.00,89200.00,"基于历史模式与当前市场数据的辩证分析：
+
+1. **当前市场结构**：价格91118位于日线/周线历史阻力位93263下方仅2.3%，形成关键压力区。4H周期RSI（62.02）处于中性偏强区间，MA",PENDING,N/A,N/A,0.4203,N/A,N/A,,Decision made at bar 4478
+2024-11-16T08:00:00,,SYSTEM_ORDER,N/A,N/A,N/A,N/A,MARKET: Buy,FILLED,91117.80,0.2154,0.6357,0.6357,N/A,,MARKET order execution
+2024-11-17T00:00:00,4483,SHORT,90247.90,45.00%,87000.00,91800.00,基于历史模式匹配（Pattern_Reversal_Divergence_Weekly）与当前市场结构的辩证验证，当前行情呈现典型的‘周线高位+4H动能衰竭’反转结构：价格逼近周线前高93263（93,PENDING,N/A,N/A,0.6357,N/A,N/A,,Decision made at bar 4483
+2024-11-17T04:00:00,,SYSTEM_ORDER,N/A,N/A,N/A,N/A,MARKET: Sell,FILLED,90248.00,-1.1580,-0.5223,-0.5223,N/A,,MARKET order execution
+2024-11-17T04:00:00,4483,CLOSE,N/A,N/A,N/A,N/A,Trade closed: LOSS,COMPLETED,N/A,N/A,0.0000,0.0000,-355.66,,"SHORT trade closed, duration: 8 bars, outcome: LOSS"
+2024-11-18T04:00:00,,SYSTEM_ORDER,N/A,N/A,N/A,N/A,STOP_LOSS: Buy,FILLED,91800.00,0.5223,0.0000,0.0000,N/A,,STOP_LOSS order execution
+2024-11-18T04:00:00,4489,CLOSE,N/A,N/A,N/A,N/A,Trade closed: LOSS,COMPLETED,N/A,N/A,0.0000,0.0000,-906.94,,"SHORT trade closed, duration: 6 bars, outcome: LOSS"
+2024-11-18T20:00:00,4494,SHORT,90464.00,35.00%,87000.00,91800.00,基于历史模式Pattern_Resistance_Validation（置信度85%）与当前多周期共振信号，市场处于日线阻力93263附近、量能萎缩、RSI_6从70回落至47.10的典型假突破结构。,PENDING,N/A,N/A,0.0000,N/A,N/A,,Decision made at bar 4494
+2024-11-19T00:00:00,,SYSTEM_ORDER,N/A,N/A,N/A,N/A,MARKET: Sell,FILLED,90463.90,-0.4015,-0.4015,-0.4015,N/A,,MARKET order execution
+2024-11-19T00:00:00,4495,SHORT,91428.80,45.00%,87000.00,91800.00,当前市场处于日线阻力位（93263）附近，价格91429位于4H周期69%分位，量能从峰值4742骤降至1211，MACD动能柱由负转弱、RSI从高位回落，呈现典型‘上涨无力’结构。Agent A识别,PENDING,N/A,N/A,-0.4015,N/A,N/A,,Decision made at bar 4495
+2024-11-19T04:00:00,,SYSTEM_ORDER,N/A,N/A,N/A,N/A,STOP_LOSS: Buy,FILLED,91800.00,0.4015,-0.1072,-0.1072,N/A,,STOP_LOSS order execution
+2024-11-19T04:00:00,,SYSTEM_ORDER,N/A,N/A,N/A,N/A,MARKET: Sell,FILLED,91429.50,-0.1072,-0.1072,-0.1072,N/A,,MARKET order execution
+2024-11-19T04:00:00,4495,CLOSE,N/A,N/A,N/A,N/A,Trade closed: LOSS,COMPLETED,N/A,N/A,0.0000,0.0000,-609.64,,"SHORT trade closed, duration: 1 bars, outcome: LOSS"
+2024-11-19T16:00:00,4499,SHORT,93225.70,100.00%,90500.00,94000.00,当前市场虽呈现多周期多头共振（日线94%、周线87%、MACD柱状转正、放量突破），但价格已逼近日线历史阻力94800，且RSI_6达72.52、RSI_12达63.88，处于超买区域，而关键支撑位9,PENDING,N/A,N/A,-0.1072,N/A,N/A,,Decision made at bar 4499
+2024-11-19T20:00:00,,SYSTEM_ORDER,N/A,N/A,N/A,N/A,MARKET: Sell,FILLED,93225.60,-0.9752,-1.0824,-1.0824,N/A,,MARKET order execution
+2024-11-20T12:00:00,,SYSTEM_ORDER,N/A,N/A,N/A,N/A,STOP_LOSS: Buy,FILLED,94000.00,1.0824,1.0824,1.0824,N/A,,STOP_LOSS order execution
+2024-11-20T12:00:00,,SYSTEM_ORDER,N/A,N/A,N/A,N/A,MARKET: Buy,FILLED,93453.10,1.0824,1.0824,1.0824,N/A,,MARKET order execution
+2024-11-20T12:00:00,4503,CLOSE,N/A,N/A,N/A,N/A,Trade closed: LOSS,COMPLETED,N/A,N/A,0.0000,0.0000,-1235.94,,"SHORT trade closed, duration: 8 bars, outcome: LOSS"
+2024-11-20T20:00:00,4506,SHORT,94286.80,45.00%,91000.00,95000.00,"尽管历史模式 Pattern_Reversal_Divergence_Volume 的胜率为 0%（仅1次样本），但其核心DNA（Trend_Uptrend_1M, Momentum_Extreme_",PENDING,N/A,N/A,1.0824,N/A,N/A,,Decision made at bar 4506
+2024-11-21T00:00:00,,SYSTEM_ORDER,N/A,N/A,N/A,N/A,MARKET: Sell,FILLED,94287.00,-1.5727,-0.4903,-0.4903,N/A,,MARKET order execution
+2024-11-21T00:00:00,4506,CLOSE,N/A,N/A,N/A,N/A,Trade closed: WIN,COMPLETED,N/A,N/A,0.0000,0.0000,+699.40,,"SHORT trade closed, duration: 3 bars, outcome: WIN"
+2024-11-21T12:00:00,,SYSTEM_ORDER,N/A,N/A,N/A,N/A,MARKET: Buy,FILLED,97976.00,0.4903,0.0000,0.0000,N/A,,MARKET order execution
+2024-11-21T12:00:00,4509,CLOSE,N/A,N/A,N/A,N/A,Trade closed: LOSS,COMPLETED,N/A,N/A,0.0000,0.0000,-1903.04,,"SHORT trade closed, duration: 3 bars, outcome: LOSS"
+2024-11-22T08:00:00,4515,SHORT,98876.00,35.00%,95500.00,99200.00,基于历史模式Pattern_Reversal_Divergence_Volume的100%匹配（13项信号全中）与Agent A的95%置信度深度分析，当前市场呈现‘多头耗尽’的极端反转结构：月线趋势,PENDING,N/A,N/A,0.0000,N/A,N/A,,Decision made at bar 4515
+2024-11-22T12:00:00,,SYSTEM_ORDER,N/A,N/A,N/A,N/A,MARKET: Sell,FILLED,98876.00,-0.3566,-0.3566,-0.3566,N/A,,MARKET order execution
+2024-11-22T16:00:00,,SYSTEM_ORDER,N/A,N/A,N/A,N/A,STOP_LOSS: Buy,FILLED,99200.00,0.3566,0.0000,0.0000,N/A,,STOP_LOSS order execution
+2024-11-22T16:00:00,4516,CLOSE,N/A,N/A,N/A,N/A,Trade closed: LOSS,COMPLETED,N/A,N/A,0.0000,0.0000,-186.15,,"SHORT trade closed, duration: 1 bars, outcome: LOSS"
+2024-11-23T04:00:00,4520,SHORT,98541.20,35.00%,95500.00,99200.00,基于同事小明的深度分析与历史模式匹配的辩证验证，当前市场呈现史诗级顶部结构：4H价格触及99588历史阻力位（97%位置），MACD柱状图由+394骤降至-63.21，形成明确的背离；日线与周线成交量,PENDING,N/A,N/A,0.0000,N/A,N/A,,Decision made at bar 4520
+2024-11-23T08:00:00,,SYSTEM_ORDER,N/A,N/A,N/A,N/A,MARKET: Sell,FILLED,98541.20,-0.3571,-0.3571,-0.3571,N/A,,MARKET order execution
+2024-11-24T16:00:00,,SYSTEM_ORDER,N/A,N/A,N/A,N/A,MARKET: Buy,FILLED,95920.40,0.3571,0.0000,0.0000,N/A,,MARKET order execution
+2024-11-24T16:00:00,4528,CLOSE,N/A,N/A,N/A,N/A,Trade closed: WIN,COMPLETED,N/A,N/A,0.0000,0.0000,+865.51,,"SHORT trade closed, duration: 8 bars, outcome: WIN"
+2024-11-24T20:00:00,4530,SHORT,97899.90,35.00%,95500.00,98200.00,基于Agent A的深度分析与历史模式的辩证验证，当前市场呈现多周期共振的看跌反转结构：4H价格在97900遇阻于日线/周线历史高点99588，MACD柱状转负、RSI_6从79回落至75、成交量萎缩,PENDING,N/A,N/A,0.0000,N/A,N/A,,Decision made at bar 4530
+2024-11-25T00:00:00,,SYSTEM_ORDER,N/A,N/A,N/A,N/A,MARKET: Sell,FILLED,97902.50,-0.3625,-0.3625,-0.3625,N/A,,MARKET order execution
+2024-11-25T04:00:00,,SYSTEM_ORDER,N/A,N/A,N/A,N/A,STOP_LOSS: Buy,FILLED,98200.00,0.3625,0.0000,0.0000,N/A,,STOP_LOSS order execution
+2024-11-25T04:00:00,4531,CLOSE,N/A,N/A,N/A,N/A,Trade closed: LOSS,COMPLETED,N/A,N/A,0.0000,0.0000,-178.95,,"SHORT trade closed, duration: 1 bars, outcome: LOSS"
+2024-11-25T16:00:00,4535,LONG,94645.60,5.00%,96500.00,94000.00,基于Agent A的深度分析与历史模式Pattern_SupportTest_OversoldDivergence的辩证验证，当前市场处于4H超卖（RSI_6=23.11）+关键支撑94400附近（现,PENDING,N/A,N/A,0.0000,N/A,N/A,,Decision made at bar 4535
+2024-11-25T20:00:00,,SYSTEM_ORDER,N/A,N/A,N/A,N/A,MARKET: Buy,FILLED,94651.90,0.0535,0.0535,0.0535,N/A,,MARKET order execution
+2024-11-27T16:00:00,,SYSTEM_ORDER,N/A,N/A,N/A,N/A,TAKE_PROFIT: Sell,FILLED,96500.00,-0.0535,0.0000,0.0000,N/A,,TAKE_PROFIT order execution
+2024-11-27T16:00:00,4546,CLOSE,N/A,N/A,N/A,N/A,Trade closed: WIN,COMPLETED,N/A,N/A,0.0000,0.0000,+88.61,,"LONG trade closed, duration: 11 bars, outcome: WIN"
+2024-11-28T04:00:00,4550,LONG,95300.00,35.00%,97800.00,93800.00,基于Agent A的深度分析与历史模式匹配的辩证整合：当前4H周期MACD动能由-1177转正至+299，RSI_6从16.75回升至56.05，量能末段放量至2836，构成明确的‘空头衰竭+多头反扑,PENDING,N/A,N/A,0.0000,N/A,N/A,,Decision made at bar 4550
+2024-11-28T08:00:00,,SYSTEM_ORDER,N/A,N/A,N/A,N/A,MARKET: Buy,FILLED,95300.00,0.3721,0.3721,0.3721,N/A,,MARKET order execution
+2024-11-28T12:00:00,4552,SHORT,94998.40,18.00%,92500.00,95500.00,基于Agent A的深度分析与历史模式匹配，当前市场呈现典型的 Pattern_BullishTrap_4H_BearishResistance_1D1W 结构：4H周期虽有MACD金叉与RSI修复的,PENDING,N/A,N/A,0.3721,N/A,N/A,,Decision made at bar 4552
+2024-11-28T16:00:00,,SYSTEM_ORDER,N/A,N/A,N/A,N/A,MARKET: Sell,FILLED,94998.40,-0.5638,-0.1917,-0.1917,N/A,,MARKET order execution
+2024-11-28T16:00:00,4552,CLOSE,N/A,N/A,N/A,N/A,Trade closed: LOSS,COMPLETED,N/A,N/A,0.0000,0.0000,-183.04,,"SHORT trade closed, duration: 2 bars, outcome: LOSS"
+2024-11-28T20:00:00,,SYSTEM_ORDER,N/A,N/A,N/A,N/A,STOP_LOSS: Buy,FILLED,95500.00,0.1917,0.0000,0.0000,N/A,,STOP_LOSS order execution
+2024-11-28T20:00:00,4553,CLOSE,N/A,N/A,N/A,N/A,Trade closed: LOSS,COMPLETED,N/A,N/A,0.0000,0.0000,-132.67,,"SHORT trade closed, duration: 1 bars, outcome: LOSS"
+2024-11-29T00:00:00,4555,LONG,96609.80,35.00%,99000.00,95300.00,基于Agent A的深度分析与历史模式匹配，当前市场呈现Pattern_BullBreakout_HighVolumeResistance的高置信度信号（92.5%），核心DNA：4H/日线/周线多头,PENDING,N/A,N/A,0.0000,N/A,N/A,,Decision made at bar 4555
+2024-11-29T04:00:00,,SYSTEM_ORDER,N/A,N/A,N/A,N/A,MARKET: Buy,FILLED,96603.90,0.3659,0.3659,0.3659,N/A,,MARKET order execution
+2024-11-29T16:00:00,4559,SHORT,97332.00,25.00%,95500.00,97800.00,基于历史模式匹配（Pattern_HighResistance_VolumeDecline_MACDDull，置信度85%），当前价格97332处于周线96%分位、日线89%分位、4H 83%分位，逼,PENDING,N/A,N/A,0.3659,N/A,N/A,,Decision made at bar 4559
+2024-11-29T20:00:00,,SYSTEM_ORDER,N/A,N/A,N/A,N/A,MARKET: Sell,FILLED,97332.00,-0.6259,-0.2600,-0.2600,N/A,,MARKET order execution
+2024-11-29T20:00:00,4559,CLOSE,N/A,N/A,N/A,N/A,Trade closed: WIN,COMPLETED,N/A,N/A,0.0000,0.0000,+195.46,,"SHORT trade closed, duration: 4 bars, outcome: WIN"
+2024-11-30T20:00:00,4566,LONG,96409.00,35.00%,99000.00,95000.00,当前价格96409位于4H震荡区间中位（45%），RSI_6从超买区（73.43）健康回落至46.87，MACD柱状图虽收缩但仍为正值（18.73），未出现死叉，表明短期回调为趋势内修正而非反转。1D,PENDING,N/A,N/A,-0.2600,N/A,N/A,,Decision made at bar 4566
+2024-12-01T00:00:00,,SYSTEM_ORDER,N/A,N/A,N/A,N/A,MARKET: Buy,FILLED,96409.10,0.6282,0.3682,0.3682,N/A,,MARKET order execution
+2024-12-01T00:00:00,4566,CLOSE,N/A,N/A,N/A,N/A,Trade closed: WIN,COMPLETED,N/A,N/A,0.0000,0.0000,+188.21,,"LONG trade closed, duration: 7 bars, outcome: WIN"
+2024-12-02T04:00:00,4574,SHORT,95996.10,45.00%,93500.00,96800.00,基于Agent A的深度分析与历史模式Pattern_Resistance_High_MomentumShift的强匹配（置信度85%），当前市场处于月线/周线/日线三重阻力区（85%/85%/74%,PENDING,N/A,N/A,0.3682,N/A,N/A,,Decision made at bar 4574
+2024-12-02T08:00:00,,SYSTEM_ORDER,N/A,N/A,N/A,N/A,STOP_LOSS: Sell,FILLED,95000.00,-0.3682,-0.8425,-0.8425,N/A,,STOP_LOSS order execution
+2024-12-02T08:00:00,,SYSTEM_ORDER,N/A,N/A,N/A,N/A,MARKET: Sell,FILLED,95996.10,-0.8425,-0.8425,-0.8425,N/A,,MARKET order execution
+2024-12-02T08:00:00,4574,CLOSE,N/A,N/A,N/A,N/A,Trade closed: LOSS,COMPLETED,N/A,N/A,0.0000,0.0000,-589.25,,"SHORT trade closed, duration: 8 bars, outcome: LOSS"
+2024-12-02T16:00:00,,SYSTEM_ORDER,N/A,N/A,N/A,N/A,MARKET: Buy,FILLED,97035.70,0.8425,0.0000,0.0000,N/A,,MARKET order execution
+2024-12-02T16:00:00,4576,CLOSE,N/A,N/A,N/A,N/A,Trade closed: LOSS,COMPLETED,N/A,N/A,0.0000,0.0000,-1038.55,,"SHORT trade closed, duration: 2 bars, outcome: LOSS"
+2024-12-03T04:00:00,4580,LONG,95551.00,50.00%,98000.00,94000.00,基于同事小明的深度分析与历史模式匹配，当前市场呈现典型的‘高位缩量回撤+MACD动能背离’结构，符合历史Pattern_Bull_1W_VolumeDecline_Divergence（胜率71%，平,PENDING,N/A,N/A,0.0000,N/A,N/A,,Decision made at bar 4580
+2024-12-03T08:00:00,,SYSTEM_ORDER,N/A,N/A,N/A,N/A,MARKET: Buy,FILLED,95551.00,0.5220,0.5220,0.5220,N/A,,MARKET order execution
+2024-12-03T12:00:00,,SYSTEM_ORDER,N/A,N/A,N/A,N/A,STOP_LOSS: Sell,FILLED,94000.00,-0.5220,0.0000,0.0000,N/A,,STOP_LOSS order execution
+2024-12-03T12:00:00,4581,CLOSE,N/A,N/A,N/A,N/A,Trade closed: LOSS,COMPLETED,N/A,N/A,0.0000,0.0000,-908.60,,"LONG trade closed, duration: 1 bars, outcome: LOSS"
+2024-12-03T16:00:00,4583,SHORT,95435.50,35.00%,92500.00,96800.00,基于Agent A的深度分析与历史模式匹配，当前市场处于月线阻力位（104056）附近，价格冲高回落、成交量持续萎缩，4H趋势明确转为空头，MACD柱状持续扩大负值，RSI中性偏弱，构成‘高位无量滞涨,PENDING,N/A,N/A,0.0000,N/A,N/A,,Decision made at bar 4583
+2024-12-03T20:00:00,,SYSTEM_ORDER,N/A,N/A,N/A,N/A,MARKET: Sell,FILLED,95435.50,-0.3625,-0.3625,-0.3625,N/A,,MARKET order execution
+2024-12-04T08:00:00,,SYSTEM_ORDER,N/A,N/A,N/A,N/A,STOP_LOSS: Buy,FILLED,96800.00,0.3625,0.0000,0.0000,N/A,,STOP_LOSS order execution
+2024-12-04T08:00:00,4586,CLOSE,N/A,N/A,N/A,N/A,Trade closed: LOSS,COMPLETED,N/A,N/A,0.0000,0.0000,-565.30,,"SHORT trade closed, duration: 3 bars, outcome: LOSS"
+2024-12-04T12:00:00,4588,LONG,95746.30,25.00%,98200.00,94200.00,基于Agent A的深度分析与历史模式匹配，当前市场呈现‘Pattern_Reversal_MomentumShift_MACD’的高置信度（85%）反转信号：4H MACD柱状图从-199.47极端,PENDING,N/A,N/A,0.0000,N/A,N/A,,Decision made at bar 4588
+2024-12-04T16:00:00,,SYSTEM_ORDER,N/A,N/A,N/A,N/A,MARKET: Buy,FILLED,95746.40,0.2566,0.2566,0.2566,N/A,,MARKET order execution
+2024-12-04T20:00:00,,SYSTEM_ORDER,N/A,N/A,N/A,N/A,TAKE_PROFIT: Sell,FILLED,98200.00,-0.2566,0.0000,0.0000,N/A,,TAKE_PROFIT order execution
+2024-12-04T20:00:00,4589,CLOSE,N/A,N/A,N/A,N/A,Trade closed: WIN,COMPLETED,N/A,N/A,0.0000,0.0000,+579.89,,"LONG trade closed, duration: 1 bars, outcome: WIN"
+2024-12-05T04:00:00,4592,LONG,102247.90,35.00%,104056.00,99200.00,基于Agent A的深度分析与历史模式辩证验证：当前价格102248位于周线97%极值区，逼近历史阻力104056，但周线成交量达79466（近20周峰值），日线放量突破（23060 vs 均值<80,PENDING,N/A,N/A,0.0000,N/A,N/A,,Decision made at bar 4592
+2024-12-05T08:00:00,,SYSTEM_ORDER,N/A,N/A,N/A,N/A,MARKET: Buy,FILLED,102247.90,0.3384,0.3384,0.3384,N/A,,MARKET order execution
+2024-12-05T16:00:00,,SYSTEM_ORDER,N/A,N/A,N/A,N/A,STOP_LOSS: Sell,FILLED,99200.00,-0.3384,0.0000,0.0000,N/A,,STOP_LOSS order execution
+2024-12-05T16:00:00,4594,CLOSE,N/A,N/A,N/A,N/A,Trade closed: LOSS,COMPLETED,N/A,N/A,0.0000,0.0000,-1099.64,,"LONG trade closed, duration: 2 bars, outcome: LOSS"
+2024-12-05T20:00:00,4596,LONG,96960.00,35.00%,99200.00,94800.00,基于历史模式匹配（Pattern_Bull_Support_Resistance）与当前多周期背离结构，市场处于‘长期强势+短期修正’的高胜率蓄力阶段。1W/1M趋势明确多头，价格位于87%高位但未破,PENDING,N/A,N/A,0.0000,N/A,N/A,,Decision made at bar 4596
+2024-12-06T00:00:00,,SYSTEM_ORDER,N/A,N/A,N/A,N/A,MARKET: Buy,FILLED,96960.00,0.3529,0.3529,0.3529,N/A,,MARKET order execution
+2024-12-06T08:00:00,,SYSTEM_ORDER,N/A,N/A,N/A,N/A,MARKET: Sell,FILLED,98147.90,-0.3529,0.0000,0.0000,N/A,,MARKET order execution
+2024-12-06T08:00:00,4598,CLOSE,N/A,N/A,N/A,N/A,Trade closed: WIN,COMPLETED,N/A,N/A,0.0000,0.0000,+350.36,,"LONG trade closed, duration: 2 bars, outcome: WIN"
+2024-12-06T16:00:00,4601,SHORT,101440.00,35.00%,98500.00,102500.00,基于历史模式匹配（Pattern_Resistance_Confirmation_VolumeDecline）与当前市场结构的高置信度（85%）共振，当前价格101440处于4H/1D/1W三周期阻力,PENDING,N/A,N/A,0.0000,N/A,N/A,,Decision made at bar 4601
+2024-12-06T20:00:00,,SYSTEM_ORDER,N/A,N/A,N/A,N/A,MARKET: Sell,FILLED,101440.00,-0.3385,-0.3385,-0.3385,N/A,,MARKET order execution
+2024-12-07T16:00:00,,SYSTEM_ORDER,N/A,N/A,N/A,N/A,MARKET: Buy,FILLED,99733.40,0.3385,0.0000,0.0000,N/A,,MARKET order execution
+2024-12-07T16:00:00,4606,CLOSE,N/A,N/A,N/A,N/A,Trade closed: WIN,COMPLETED,N/A,N/A,0.0000,0.0000,+508.69,,"SHORT trade closed, duration: 5 bars, outcome: WIN"
+2024-12-08T00:00:00,4609,SHORT,99924.50,35.00%,96500.00,100500.00,基于Agent A的深度分析与历史模式的辩证整合，当前市场呈现极端顶部结构：价格位于4H/日线/周线三重阻力位（104056）下方，RSI_6达88.98、MACD动能柱持续负向扩大至-52.82，4,PENDING,N/A,N/A,0.0000,N/A,N/A,,Decision made at bar 4609
+2024-12-08T04:00:00,,SYSTEM_ORDER,N/A,N/A,N/A,N/A,MARKET: Sell,FILLED,99924.60,-0.3454,-0.3454,-0.3454,N/A,,MARKET order execution
+2024-12-08T12:00:00,,SYSTEM_ORDER,N/A,N/A,N/A,N/A,STOP_LOSS: Buy,FILLED,100500.00,0.3454,0.0000,0.0000,N/A,,STOP_LOSS order execution
+2024-12-08T12:00:00,4611,CLOSE,N/A,N/A,N/A,N/A,Trade closed: LOSS,COMPLETED,N/A,N/A,0.0000,0.0000,-268.00,,"SHORT trade closed, duration: 2 bars, outcome: LOSS"
+2024-12-08T16:00:00,4613,SHORT,100110.90,5.00%,96500.00,100500.00,基于Agent A的深度分析与历史模式匹配，当前市场呈现典型的'高位缩量假突破'结构（Pattern_Resistance_WeakBreakout），价格逼近周线历史阻力位104056（当前1001,PENDING,N/A,N/A,0.0000,N/A,N/A,,Decision made at bar 4613
+2024-12-08T20:00:00,,SYSTEM_ORDER,N/A,N/A,N/A,N/A,MARKET: Sell,FILLED,100111.00,-0.0491,-0.0491,-0.0491,N/A,,MARKET order execution
+2024-12-09T20:00:00,,SYSTEM_ORDER,N/A,N/A,N/A,N/A,TAKE_PROFIT: Buy,FILLED,96500.00,0.0491,0.0000,0.0000,N/A,,TAKE_PROFIT order execution
+2024-12-09T20:00:00,4619,CLOSE,N/A,N/A,N/A,N/A,Trade closed: WIN,COMPLETED,N/A,N/A,0.0000,0.0000,+167.59,,"SHORT trade closed, duration: 6 bars, outcome: WIN"
+2024-12-10T00:00:00,4621,LONG,96923.00,25.00%,99800.00,94000.00,"基于历史模式匹配（Pattern_Reversal_SuppressedBear_4H）与当前市场数据的辩证验证，我做出以下决策：
+
+1. **历史模式高度吻合**：小明识别的‘超卖反弹+缩量洗盘’模",PENDING,N/A,N/A,0.0000,N/A,N/A,,Decision made at bar 4621
+2024-12-10T04:00:00,,SYSTEM_ORDER,N/A,N/A,N/A,N/A,MARKET: Buy,FILLED,96925.70,0.2541,0.2541,0.2541,N/A,,MARKET order execution
+2024-12-10T12:00:00,,SYSTEM_ORDER,N/A,N/A,N/A,N/A,MARKET: Sell,FILLED,97720.60,-0.2541,0.0000,0.0000,N/A,,MARKET order execution
+2024-12-10T12:00:00,4623,CLOSE,N/A,N/A,N/A,N/A,Trade closed: WIN,COMPLETED,N/A,N/A,0.0000,0.0000,+152.54,,"LONG trade closed, duration: 2 bars, outcome: WIN"
+2024-12-10T16:00:00,4625,LONG,95846.70,100.00%,97800.00,93800.00,基于Agent A的深度分析与历史模式匹配，当前市场呈现‘超卖+支撑+缩量企稳’的高概率反转结构（Pattern_Reversal_Support_Oversold）。4H价格触及94000关键支撑（,PENDING,N/A,N/A,0.0000,N/A,N/A,,Decision made at bar 4625
+2024-12-10T20:00:00,,SYSTEM_ORDER,N/A,N/A,N/A,N/A,MARKET: Buy,FILLED,95848.50,1.0089,1.0089,1.0089,N/A,,MARKET order execution
+2024-12-11T04:00:00,,SYSTEM_ORDER,N/A,N/A,N/A,N/A,MARKET: Sell,FILLED,97392.10,-1.0089,0.0000,0.0000,N/A,,MARKET order execution
+2024-12-11T04:00:00,4627,CLOSE,N/A,N/A,N/A,N/A,Trade closed: WIN,COMPLETED,N/A,N/A,0.0000,0.0000,+1362.41,,"LONG trade closed, duration: 2 bars, outcome: WIN"
+2024-12-11T12:00:00,4630,LONG,100374.10,35.00%,103500.00,98200.00,基于Agent A的深度分析与历史模式匹配，当前市场呈现4H周期的突破性多头动能反转：MACD柱状图由-205转为+196，成交量在最后5根K线暴增369%，价格突破前高101363并站稳100374,PENDING,N/A,N/A,0.0000,N/A,N/A,,Decision made at bar 4630
+2024-12-11T16:00:00,,SYSTEM_ORDER,N/A,N/A,N/A,N/A,MARKET: Buy,FILLED,100374.20,0.3488,0.3488,0.3488,N/A,,MARKET order execution
+2024-12-11T16:00:00,4631,LONG,101125.40,45.00%,104000.00,98200.00,基于Agent A的深度分析与历史模式匹配，当前市场呈现'Pattern_Bull_MultiTimeframe_VolumeSpike'，4H/Weekly/Monthly多周期趋势共振，成交量创2,PENDING,N/A,N/A,0.3488,N/A,N/A,,Decision made at bar 4631
+2024-12-11T20:00:00,,SYSTEM_ORDER,N/A,N/A,N/A,N/A,MARKET: Buy,FILLED,101125.50,0.0973,0.4462,0.4462,N/A,,MARKET order execution
+2024-12-13T16:00:00,4643,SHORT,101471.40,25.00%,98500.00,102500.00,基于历史模式 Pattern_HighResistance_VolumeDivergence_MACDDivergence（置信度85%）与当前市场数据的深度验证，我做出以下辩证决策：1）当前价格10,PENDING,N/A,N/A,0.4462,N/A,N/A,,Decision made at bar 4643
+2024-12-13T20:00:00,,SYSTEM_ORDER,N/A,N/A,N/A,N/A,MARKET: Sell,FILLED,101471.50,-0.6936,-0.2474,-0.2474,N/A,,MARKET order execution
+2024-12-13T20:00:00,4643,CLOSE,N/A,N/A,N/A,N/A,Trade closed: WIN,COMPLETED,N/A,N/A,0.0000,0.0000,+326.32,,"SHORT trade closed, duration: 13 bars, outcome: WIN"
+2024-12-14T00:00:00,,SYSTEM_ORDER,N/A,N/A,N/A,N/A,STOP_LOSS: Buy,FILLED,102500.00,0.2474,0.0000,0.0000,N/A,,STOP_LOSS order execution
+2024-12-14T00:00:00,4644,CLOSE,N/A,N/A,N/A,N/A,Trade closed: LOSS,COMPLETED,N/A,N/A,0.0000,0.0000,-305.58,,"SHORT trade closed, duration: 1 bars, outcome: LOSS"
+2024-12-15T04:00:00,4652,SHORT,101732.90,35.00%,98500.00,102500.00,基于历史模式匹配与Agent A深度分析的辩证整合：尽管原始Pattern_Reversal_DoubleResistance_MACD历史胜率为0%，但Agent A识别出当前市场已演化为更强大的升,PENDING,N/A,N/A,0.0000,N/A,N/A,,Decision made at bar 4652
+2024-12-15T08:00:00,,SYSTEM_ORDER,N/A,N/A,N/A,N/A,MARKET: Sell,FILLED,101732.90,-0.3442,-0.3442,-0.3442,N/A,,MARKET order execution
+2024-12-15T20:00:00,,SYSTEM_ORDER,N/A,N/A,N/A,N/A,MARKET: Buy,FILLED,103258.90,0.3442,0.0000,0.0000,N/A,,MARKET order execution
+2024-12-15T20:00:00,4655,CLOSE,N/A,N/A,N/A,N/A,Trade closed: LOSS,COMPLETED,N/A,N/A,0.0000,0.0000,-595.88,,"SHORT trade closed, duration: 3 bars, outcome: LOSS"
+2024-12-16T04:00:00,4658,LONG,104972.40,35.00%,107500.00,102200.00,尽管历史模式 Pattern_Bull_ResistanceBreakout 胜率为0%，但其样本量仅为1，且发生于2021年极端泡沫环境，不具备当前市场结构的可比性。当前市场呈现前所未有的多周期共振,PENDING,N/A,N/A,0.0000,N/A,N/A,,Decision made at bar 4658
+2024-12-16T08:00:00,,SYSTEM_ORDER,N/A,N/A,N/A,N/A,MARKET: Buy,FILLED,104973.90,0.3316,0.3316,0.3316,N/A,,MARKET order execution
+2024-12-16T16:00:00,,SYSTEM_ORDER,N/A,N/A,N/A,N/A,TAKE_PROFIT: Sell,FILLED,107500.00,-0.3316,0.0000,0.0000,N/A,,TAKE_PROFIT order execution
+2024-12-16T16:00:00,4660,CLOSE,N/A,N/A,N/A,N/A,Trade closed: WIN,COMPLETED,N/A,N/A,0.0000,0.0000,+767.27,,"LONG trade closed, duration: 2 bars, outcome: WIN"
+2024-12-16T20:00:00,4662,SHORT,106066.00,35.00%,102500.00,107500.00,基于历史模式匹配与Agent A深度分析的辩证整合，当前市场呈现多周期极端阻力+量价背离+多空周期冲突的强反转结构。尽管历史Pattern_Reversal_Divergence_Volume胜率为0,PENDING,N/A,N/A,0.0000,N/A,N/A,,Decision made at bar 4662
+2024-12-17T00:00:00,,SYSTEM_ORDER,N/A,N/A,N/A,N/A,MARKET: Sell,FILLED,106066.10,-0.3307,-0.3307,-0.3307,N/A,,MARKET order execution
+2024-12-17T08:00:00,,SYSTEM_ORDER,N/A,N/A,N/A,N/A,STOP_LOSS: Buy,FILLED,107500.00,0.3307,0.0000,0.0000,N/A,,STOP_LOSS order execution
+2024-12-17T08:00:00,4664,CLOSE,N/A,N/A,N/A,N/A,Trade closed: LOSS,COMPLETED,N/A,N/A,0.0000,0.0000,-544.89,,"SHORT trade closed, duration: 2 bars, outcome: LOSS"
+2024-12-18T04:00:00,4670,LONG,104235.50,25.00%,107500.00,101200.00,基于Agent A的深度分析与历史模式匹配，当前市场呈现‘高位超卖反弹’的高概率结构：4H RSI_6=28.70（极端超卖）、MACD柱状图扩大至-275.81（动能衰竭）、价格未跌破关键支撑101,PENDING,N/A,N/A,0.0000,N/A,N/A,,Decision made at bar 4670
+2024-12-18T08:00:00,,SYSTEM_ORDER,N/A,N/A,N/A,N/A,MARKET: Buy,FILLED,104235.50,0.2391,0.2391,0.2391,N/A,,MARKET order execution
+2024-12-18T20:00:00,,SYSTEM_ORDER,N/A,N/A,N/A,N/A,STOP_LOSS: Sell,FILLED,101200.00,-0.2391,0.0000,0.0000,N/A,,STOP_LOSS order execution
+2024-12-18T20:00:00,4673,CLOSE,N/A,N/A,N/A,N/A,Trade closed: LOSS,COMPLETED,N/A,N/A,0.0000,0.0000,-774.87,,"LONG trade closed, duration: 3 bars, outcome: LOSS"
+2024-12-19T04:00:00,4676,SHORT,101657.90,15.00%,98500.00,102500.00,基于Agent A的深度分析与历史模式辩证判断：当前价格101658处于周线89%、月线92%历史极端阻力区，MACD柱状图虽触底回升但仍在负值区深度运行（-746.66），RSI从超卖反弹但未形成有,PENDING,N/A,N/A,0.0000,N/A,N/A,,Decision made at bar 4676
+2024-12-19T08:00:00,,SYSTEM_ORDER,N/A,N/A,N/A,N/A,MARKET: Sell,FILLED,101657.90,-0.1459,-0.1459,-0.1459,N/A,,MARKET order execution
+2024-12-19T12:00:00,,SYSTEM_ORDER,N/A,N/A,N/A,N/A,STOP_LOSS: Buy,FILLED,102500.00,0.1459,0.0000,0.0000,N/A,,STOP_LOSS order execution
+2024-12-19T12:00:00,4677,CLOSE,N/A,N/A,N/A,N/A,Trade closed: LOSS,COMPLETED,N/A,N/A,0.0000,0.0000,-152.70,,"SHORT trade closed, duration: 1 bars, outcome: LOSS"
+2024-12-19T16:00:00,4679,LONG,97207.80,35.00%,99800.00,96000.00,基于历史模式 Pattern_SupportTest_OversoldDivergence 的100%胜率记录，当前市场完美匹配其核心DNA：RSI_6=18.87（超卖）、RSI_12=27.02（,PENDING,N/A,N/A,0.0000,N/A,N/A,,Decision made at bar 4679
+2024-12-19T20:00:00,,SYSTEM_ORDER,N/A,N/A,N/A,N/A,MARKET: Buy,FILLED,97202.80,0.3556,0.3556,0.3556,N/A,,MARKET order execution
+2024-12-20T00:00:00,,SYSTEM_ORDER,N/A,N/A,N/A,N/A,STOP_LOSS: Sell,FILLED,96000.00,-0.3556,0.0000,0.0000,N/A,,STOP_LOSS order execution
+2024-12-20T00:00:00,4680,CLOSE,N/A,N/A,N/A,N/A,Trade closed: LOSS,COMPLETED,N/A,N/A,0.0000,0.0000,-496.39,,"LONG trade closed, duration: 1 bars, outcome: LOSS"
+2024-12-20T08:00:00,4683,LONG,92719.90,35.00%,96500.00,91800.00,基于历史模式Pattern_SupportTest_OversoldDivergence胜率0%（仅1次样本）且无成功驱动，应谨慎对待传统超卖反转信号。但同事小明提出的Pattern_Reversal,PENDING,N/A,N/A,0.0000,N/A,N/A,,Decision made at bar 4683
+2024-12-20T12:00:00,,SYSTEM_ORDER,N/A,N/A,N/A,N/A,MARKET: Buy,FILLED,92720.00,0.3709,0.3709,0.3709,N/A,,MARKET order execution
+2024-12-20T20:00:00,,SYSTEM_ORDER,N/A,N/A,N/A,N/A,MARKET: Sell,FILLED,97116.70,-0.3709,0.0000,0.0000,N/A,,MARKET order execution
+2024-12-20T20:00:00,4685,CLOSE,N/A,N/A,N/A,N/A,Trade closed: WIN,COMPLETED,N/A,N/A,0.0000,0.0000,+1560.40,,"LONG trade closed, duration: 2 bars, outcome: WIN"
+2024-12-21T00:00:00,4687,LONG,97494.00,25.00%,99000.00,96000.00,基于Agent A的深度分析与历史模式匹配的辩证整合：当前价格97494处于4H/日线支撑共振区（42%位置），周线逼近历史高点108365但未突破，呈现量价背离下的高位犹豫格局。4H最近一根K线成交,PENDING,N/A,N/A,0.0000,N/A,N/A,,Decision made at bar 4687
+2024-12-21T04:00:00,,SYSTEM_ORDER,N/A,N/A,N/A,N/A,MARKET: Buy,FILLED,97494.10,0.2560,0.2560,0.2560,N/A,,MARKET order execution
+2024-12-21T08:00:00,,SYSTEM_ORDER,N/A,N/A,N/A,N/A,MARKET: Sell,FILLED,99031.50,-0.2560,0.0000,0.0000,N/A,,MARKET order execution
+2024-12-21T08:00:00,4688,CLOSE,N/A,N/A,N/A,N/A,Trade closed: WIN,COMPLETED,N/A,N/A,0.0000,0.0000,+343.22,,"LONG trade closed, duration: 1 bars, outcome: WIN"
+2024-12-21T12:00:00,4690,SHORT,97524.10,35.00%,93500.00,99500.00,基于Agent A的深度分析与历史模式匹配，当前市场呈现典型的‘高位量能释放+多周期背离’顶部结构（Pattern_HighVolume_Consolidation_Resistance），置信度高达,PENDING,N/A,N/A,0.0000,N/A,N/A,,Decision made at bar 4690
+2024-12-21T16:00:00,,SYSTEM_ORDER,N/A,N/A,N/A,N/A,MARKET: Sell,FILLED,97524.00,-0.3595,-0.3595,-0.3595,N/A,,MARKET order execution
+2024-12-21T20:00:00,,SYSTEM_ORDER,N/A,N/A,N/A,N/A,MARKET: Buy,FILLED,97276.30,0.3595,0.0000,0.0000,N/A,,MARKET order execution
+2024-12-21T20:00:00,4691,CLOSE,N/A,N/A,N/A,N/A,Trade closed: WIN,COMPLETED,N/A,N/A,0.0000,0.0000,+19.02,,"SHORT trade closed, duration: 1 bars, outcome: WIN"
+2024-12-22T04:00:00,4694,LONG,96215.00,100.00%,99800.00,94500.00,基于Agent A的深度分析与历史模式匹配，当前市场呈现'Pattern_Bull_Rebound_Convergence'：4H周期MACD动能由负转正（+55.09）、RSI_6从14.87回升至,PENDING,N/A,N/A,0.0000,N/A,N/A,,Decision made at bar 4694
+2024-12-22T08:00:00,,SYSTEM_ORDER,N/A,N/A,N/A,N/A,MARKET: Buy,FILLED,96216.20,1.0204,1.0204,1.0204,N/A,,MARKET order execution
+2024-12-22T08:00:00,4695,SHORT,97093.20,85.00%,94500.00,97800.00,尽管当前账户为98.1%多头持仓，但根据Agent A的深度分析与历史模式Pattern_HighVolume_StubbornRange的92.6%高置信度匹配，市场正处于月线历史量能峰值+日线量能,PENDING,N/A,N/A,1.0204,N/A,N/A,,Decision made at bar 4695
+2024-12-22T12:00:00,,SYSTEM_ORDER,N/A,N/A,N/A,N/A,MARKET: Sell,FILLED,97093.20,-1.9045,-0.8840,-0.8840,N/A,,MARKET order execution
+2024-12-22T12:00:00,4695,CLOSE,N/A,N/A,N/A,N/A,Trade closed: WIN,COMPLETED,N/A,N/A,0.0000,0.0000,+697.66,,"SHORT trade closed, duration: 1 bars, outcome: WIN"
+2024-12-22T20:00:00,,SYSTEM_ORDER,N/A,N/A,N/A,N/A,TAKE_PROFIT: Buy,FILLED,94500.00,0.8840,0.8840,0.8840,N/A,,TAKE_PROFIT order execution
+2024-12-22T20:00:00,,SYSTEM_ORDER,N/A,N/A,N/A,N/A,MARKET: Buy,FILLED,94836.20,0.8840,0.8840,0.8840,N/A,,MARKET order execution
+2024-12-22T20:00:00,4697,CLOSE,N/A,N/A,N/A,N/A,Trade closed: WIN,COMPLETED,N/A,N/A,0.0000,0.0000,+2123.10,,"SHORT trade closed, duration: 2 bars, outcome: WIN"
+2024-12-23T04:00:00,4700,SHORT,95410.30,35.00%,92268.00,97805.00,基于Agent A的深度分析与历史模式匹配，当前市场呈现高风险的‘高位量价背离’结构（Pattern_HighTop_VolumeDivergence），置信度85%。月线价格位于历史85%高位，但未,PENDING,N/A,N/A,0.8840,N/A,N/A,,Decision made at bar 4700
+2024-12-23T08:00:00,,SYSTEM_ORDER,N/A,N/A,N/A,N/A,MARKET: Sell,FILLED,95410.40,-1.2634,-0.3794,-0.3794,N/A,,MARKET order execution
+2024-12-23T08:00:00,4700,CLOSE,N/A,N/A,N/A,N/A,Trade closed: WIN,COMPLETED,N/A,N/A,0.0000,0.0000,+339.43,,"SHORT trade closed, duration: 3 bars, outcome: WIN"
+2024-12-23T16:00:00,,SYSTEM_ORDER,N/A,N/A,N/A,N/A,MARKET: Buy,FILLED,93253.90,0.3794,0.0000,0.0000,N/A,,MARKET order execution
+2024-12-23T16:00:00,4702,CLOSE,N/A,N/A,N/A,N/A,Trade closed: WIN,COMPLETED,N/A,N/A,0.0000,0.0000,+746.62,,"SHORT trade closed, duration: 2 bars, outcome: WIN"
+2024-12-23T20:00:00,4704,LONG,94884.10,35.00%,98500.00,92500.00,基于历史模式Pattern_Bull_Summit_Accumulation（置信度85%）与当前市场结构的辩证验证：1）1W/1M月线处于76%历史高位+月成交量维持30万+高位，符合2019末、2,PENDING,N/A,N/A,0.0000,N/A,N/A,,Decision made at bar 4704
+2024-12-24T00:00:00,,SYSTEM_ORDER,N/A,N/A,N/A,N/A,MARKET: Buy,FILLED,94884.10,0.3840,0.3840,0.3840,N/A,,MARKET order execution
+2024-12-24T16:00:00,,SYSTEM_ORDER,N/A,N/A,N/A,N/A,TAKE_PROFIT: Sell,FILLED,98500.00,-0.3840,0.0000,0.0000,N/A,,TAKE_PROFIT order execution
+2024-12-24T16:00:00,4708,CLOSE,N/A,N/A,N/A,N/A,Trade closed: WIN,COMPLETED,N/A,N/A,0.0000,0.0000,+1314.11,,"LONG trade closed, duration: 4 bars, outcome: WIN"
+2024-12-24T20:00:00,4710,LONG,98661.30,35.00%,99480.00,94500.00,基于Agent A的深度分析与历史模式匹配的辩证整合，当前市场呈现4H周期动能反转的高概率突破前兆：MACD柱状图从-1589飙升至+613.70，DIF/DEA金叉扩张，RSI_6升至70.93但未,PENDING,N/A,N/A,0.0000,N/A,N/A,,Decision made at bar 4710
+2024-12-25T00:00:00,,SYSTEM_ORDER,N/A,N/A,N/A,N/A,MARKET: Buy,FILLED,98656.10,0.3739,0.3739,0.3739,N/A,,MARKET order execution
+2024-12-25T20:00:00,,SYSTEM_ORDER,N/A,N/A,N/A,N/A,TAKE_PROFIT: Sell,FILLED,99480.00,-0.3739,-0.3739,-0.3739,N/A,,TAKE_PROFIT order execution
+2024-12-25T20:00:00,,SYSTEM_ORDER,N/A,N/A,N/A,N/A,MARKET: Sell,FILLED,99018.80,-0.3739,-0.3739,-0.3739,N/A,,MARKET order execution
+2024-12-25T20:00:00,4715,CLOSE,N/A,N/A,N/A,N/A,Trade closed: WIN,COMPLETED,N/A,N/A,0.0000,0.0000,+233.99,,"LONG trade closed, duration: 5 bars, outcome: WIN"
+2024-12-26T08:00:00,,SYSTEM_ORDER,N/A,N/A,N/A,N/A,MARKET: Buy,FILLED,97731.30,0.3739,0.0000,0.0000,N/A,,MARKET order execution
+2024-12-26T08:00:00,4718,CLOSE,N/A,N/A,N/A,N/A,Trade closed: WIN,COMPLETED,N/A,N/A,0.0000,0.0000,+406.84,,"LONG trade closed, duration: 3 bars, outcome: WIN"
+2024-12-26T20:00:00,4722,LONG,95783.30,25.00%,99400.00,92400.00,基于Agent A的深度分析与历史模式匹配，当前市场呈现‘高位缩量回调至关键支撑’的高概率反弹结构。4H价格在95783处企稳，RSI_6=32.64接近超卖阈值（30），MACD动能从+570断崖式,PENDING,N/A,N/A,0.0000,N/A,N/A,,Decision made at bar 4722
+2024-12-27T00:00:00,,SYSTEM_ORDER,N/A,N/A,N/A,N/A,MARKET: Buy,FILLED,95777.90,0.2768,0.2768,0.2768,N/A,,MARKET order execution
+2024-12-28T04:00:00,4730,LONG,94386.00,35.00%,99400.00,92400.00,基于历史模式 Pattern_Reversal_Oversold_Support（胜率71.4%）与当前市场数据的辩证验证：1）4H RSI_6=36.44接近超卖区，MACD动能柱持续负向扩大但已见,PENDING,N/A,N/A,0.2768,N/A,N/A,,Decision made at bar 4730
+2024-12-28T08:00:00,,SYSTEM_ORDER,N/A,N/A,N/A,N/A,MARKET: Buy,FILLED,94385.90,0.1149,0.3917,0.3917,N/A,,MARKET order execution
+2024-12-28T08:00:00,4731,LONG,94756.10,45.00%,99400.00,92400.00,基于历史模式匹配（Pattern_Reversal_SupportOversoldVolumeDecline）与当前市场数据的辩证验证，小明的分析高度可信：4H价格逼近关键支撑93500（当前9475,PENDING,N/A,N/A,0.3917,N/A,N/A,,Decision made at bar 4731
+2024-12-28T12:00:00,,SYSTEM_ORDER,N/A,N/A,N/A,N/A,MARKET: Buy,FILLED,94755.90,0.1106,0.5023,0.5023,N/A,,MARKET order execution
+2024-12-30T12:00:00,,SYSTEM_ORDER,N/A,N/A,N/A,N/A,STOP_LOSS: Sell,FILLED,92400.00,-0.5023,0.0000,0.0000,N/A,,STOP_LOSS order execution
+2024-12-30T12:00:00,4743,CLOSE,N/A,N/A,N/A,N/A,Trade closed: LOSS,COMPLETED,N/A,N/A,0.0000,0.0000,-1517.96,,"LONG trade closed, duration: 21 bars, outcome: LOSS"
+2024-12-31T00:00:00,4747,LONG,92513.60,25.00%,98500.00,91500.00,基于Agent A的深度分析与历史模式匹配的辩证整合：当前市场处于‘长期牛市未破（1M/1W趋势稳固）+ 4H超跌+1D放量承接’的三重共振结构，虽无完全历史Pattern匹配，但类似2021年11月,PENDING,N/A,N/A,0.0000,N/A,N/A,,Decision made at bar 4747
+2024-12-31T04:00:00,,SYSTEM_ORDER,N/A,N/A,N/A,N/A,MARKET: Buy,FILLED,92513.60,0.2825,0.2825,0.2825,N/A,,MARKET order execution
+2024-12-31T04:00:00,4748,LONG,92853.30,45.00%,98500.00,91500.00,当前市场状态与历史模式 Pattern_Reversal_Support_Oversold 高度匹配，且被 Agent A 的深度分析进一步强化为进化版 Pattern_Reversal_Suppor,PENDING,N/A,N/A,0.2825,N/A,N/A,,Decision made at bar 4748
+2024-12-31T08:00:00,,SYSTEM_ORDER,N/A,N/A,N/A,N/A,MARKET: Buy,FILLED,92853.30,0.2245,0.5069,0.5069,N/A,,MARKET order execution
+2024-12-31T20:00:00,4752,SHORT,93585.10,30.00%,91500.00,94500.00,基于历史模式匹配与当前市场结构的辩证分析，我接受同事小明的核心判断：当前为 Pattern_HighResistance_WeakBreakout（置信度85%），属于高概率假突破形态。尽管4H出现M,PENDING,N/A,N/A,0.5069,N/A,N/A,,Decision made at bar 4752
+2025-01-01T00:00:00,,SYSTEM_ORDER,N/A,N/A,N/A,N/A,MARKET: Sell,FILLED,93585.00,-0.8433,-0.3364,-0.3364,N/A,,MARKET order execution
+2025-01-01T00:00:00,4752,CLOSE,N/A,N/A,N/A,N/A,Trade closed: WIN,COMPLETED,N/A,N/A,0.0000,0.0000,+372.45,,"SHORT trade closed, duration: 5 bars, outcome: WIN"
+2025-01-01T12:00:00,,SYSTEM_ORDER,N/A,N/A,N/A,N/A,STOP_LOSS: Buy,FILLED,94500.00,0.3364,0.0000,0.0000,N/A,,STOP_LOSS order execution
+2025-01-01T12:00:00,4755,CLOSE,N/A,N/A,N/A,N/A,Trade closed: LOSS,COMPLETED,N/A,N/A,0.0000,0.0000,-371.11,,"SHORT trade closed, duration: 3 bars, outcome: LOSS"
+2025-01-02T00:00:00,4759,SHORT,94996.30,35.00%,92200.00,95800.00,基于历史模式Pattern_Breakout_VolumeSpike_ResistanceConvergence（置信度75%）与当前多周期结构的辩证分析：4H虽出现放量突破与MACD动能转正，但周线,PENDING,N/A,N/A,0.0000,N/A,N/A,,Decision made at bar 4759
+2025-01-02T04:00:00,,SYSTEM_ORDER,N/A,N/A,N/A,N/A,MARKET: Sell,FILLED,94996.40,-0.3851,-0.3851,-0.3851,N/A,,MARKET order execution
+2025-01-02T08:00:00,,SYSTEM_ORDER,N/A,N/A,N/A,N/A,MARKET: Buy,FILLED,95826.00,0.3851,0.0000,0.0000,N/A,,MARKET order execution
+2025-01-02T08:00:00,4760,CLOSE,N/A,N/A,N/A,N/A,Trade closed: LOSS,COMPLETED,N/A,N/A,0.0000,0.0000,-392.99,,"SHORT trade closed, duration: 1 bars, outcome: LOSS"
+2025-01-02T20:00:00,4764,SHORT,96988.40,5.00%,94500.00,97850.00,基于历史模式 Pattern_Reversal_Divergence_Volume 的 100% 胜率记录（1次样本），当前市场在4H周期完全匹配：价格触及阻力位97848（当前价96988，差860,PENDING,N/A,N/A,0.0000,N/A,N/A,,Decision made at bar 4764
+2025-01-03T00:00:00,,SYSTEM_ORDER,N/A,N/A,N/A,N/A,MARKET: Sell,FILLED,96988.40,-0.0537,-0.0537,-0.0537,N/A,,MARKET order execution
+2025-01-03T08:00:00,,SYSTEM_ORDER,N/A,N/A,N/A,N/A,MARKET: Buy,FILLED,96311.60,0.0537,0.0000,0.0000,N/A,,MARKET order execution
+2025-01-03T08:00:00,4766,CLOSE,N/A,N/A,N/A,N/A,Trade closed: WIN,COMPLETED,N/A,N/A,0.0000,0.0000,+25.96,,"SHORT trade closed, duration: 2 bars, outcome: WIN"
+2025-01-03T16:00:00,4769,SHORT,98591.60,35.00%,95800.00,99400.00,当前价格98592处于4H、日线、周线、月线多头趋势的高位，符合历史Pattern_Bull_MultiTimeframe_VolumeBreakout的形态，但关键量能确认缺失——日线成交量4371,PENDING,N/A,N/A,0.0000,N/A,N/A,,Decision made at bar 4769
+2025-01-03T20:00:00,,SYSTEM_ORDER,N/A,N/A,N/A,N/A,MARKET: Sell,FILLED,98591.60,-0.3698,-0.3698,-0.3698,N/A,,MARKET order execution
+2025-01-04T12:00:00,4774,SHORT,97665.30,55.00%,95800.00,99400.00,基于历史模式 Pattern_Reversal_Divergence_VolumeCrash_Extreme 的100%胜率记录，结合Agent A深度分析的‘量能枯竭型反转’升级结构，当前市场呈现多,PENDING,N/A,N/A,-0.3698,N/A,N/A,,Decision made at bar 4774
+2025-01-04T16:00:00,,SYSTEM_ORDER,N/A,N/A,N/A,N/A,MARKET: Sell,FILLED,97665.30,-0.2185,-0.5883,-0.5883,N/A,,MARKET order execution
+2025-01-05T16:00:00,,SYSTEM_ORDER,N/A,N/A,N/A,N/A,MARKET: Buy,FILLED,98029.80,0.5883,0.0000,0.0000,N/A,,MARKET order execution
+2025-01-05T16:00:00,4780,CLOSE,N/A,N/A,N/A,N/A,Trade closed: WIN,COMPLETED,N/A,N/A,0.0000,0.0000,+10.03,,"SHORT trade closed, duration: 11 bars, outcome: WIN"
+2025-01-05T20:00:00,4782,SHORT,98363.90,35.00%,95800.00,99400.00,基于历史模式Pattern_Reversal_Divergence_VolumeCrash的0%胜率与当前市场极端环境的叠加，我接受同事小明的升级版模式Pattern_Reversal_SilentT,PENDING,N/A,N/A,0.0000,N/A,N/A,,Decision made at bar 4782
+2025-01-06T00:00:00,,SYSTEM_ORDER,N/A,N/A,N/A,N/A,MARKET: Sell,FILLED,98363.90,-0.3707,-0.3707,-0.3707,N/A,,MARKET order execution
+2025-01-06T04:00:00,,SYSTEM_ORDER,N/A,N/A,N/A,N/A,STOP_LOSS: Buy,FILLED,99400.00,0.3707,0.3707,0.3707,N/A,,STOP_LOSS order execution
+2025-01-06T04:00:00,,SYSTEM_ORDER,N/A,N/A,N/A,N/A,MARKET: Buy,FILLED,99035.10,0.3707,0.3707,0.3707,N/A,,MARKET order execution
+2025-01-06T04:00:00,4783,CLOSE,N/A,N/A,N/A,N/A,Trade closed: LOSS,COMPLETED,N/A,N/A,0.0000,0.0000,-457.35,,"SHORT trade closed, duration: 1 bars, outcome: LOSS"
+2025-01-06T12:00:00,4786,LONG,102149.40,55.00%,109800.00,96000.00,基于历史模式 Pattern_Bull_NewHigh_NewVolume 的100%胜率记录，结合Agent A的深度分析，当前市场呈现多周期共振的极端看涨结构：4H趋势明确向上、成交量创20K线新,PENDING,N/A,N/A,0.3707,N/A,N/A,,Decision made at bar 4786
+2025-01-06T16:00:00,,SYSTEM_ORDER,N/A,N/A,N/A,N/A,MARKET: Buy,FILLED,102149.90,0.1938,0.5644,0.5644,N/A,,MARKET order execution
+2025-01-07T00:00:00,,SYSTEM_ORDER,N/A,N/A,N/A,N/A,MARKET: Sell,FILLED,102224.50,-0.5644,0.0000,0.0000,N/A,,MARKET order execution
+2025-01-07T00:00:00,4788,CLOSE,N/A,N/A,N/A,N/A,Trade closed: WIN,COMPLETED,N/A,N/A,0.0000,0.0000,+1082.46,,"LONG trade closed, duration: 5 bars, outcome: WIN"
+2025-01-07T12:00:00,4792,LONG,97942.80,35.00%,101800.00,96500.00,基于Agent A的深度分析与历史模式辩证验证，当前市场呈现罕见但逻辑坚实的多周期共振反弹结构：4H RSI_6=27.00（极端超卖）、成交量放量下跌后缩量企稳（4000→989）、价格触及9709,PENDING,N/A,N/A,0.0000,N/A,N/A,,Decision made at bar 4792
+2025-01-07T16:00:00,,SYSTEM_ORDER,N/A,N/A,N/A,N/A,MARKET: Buy,FILLED,97952.20,0.3745,0.3745,0.3745,N/A,,MARKET order execution
+2025-01-07T16:00:00,4793,LONG,96451.90,45.00%,101800.00,95000.00,基于Agent A的深度分析与历史模式匹配，当前市场呈现‘极端超卖+日线支撑共振’的高概率反弹结构（Pattern_Oversold_Rebound_Support，置信度82.5%）。RSI_6=2,PENDING,N/A,N/A,0.3745,N/A,N/A,,Decision made at bar 4793
+2025-01-07T20:00:00,,SYSTEM_ORDER,N/A,N/A,N/A,N/A,MARKET: Buy,FILLED,96451.90,0.1116,0.4861,0.4861,N/A,,MARKET order execution
+2025-01-08T00:00:00,4795,LONG,96526.80,65.00%,101800.00,95000.00,"基于历史模式匹配与当前多周期信号的辩证分析：
+
+1. **历史模式验证**：同事小明识别的 Pattern_Reversal_SupportVolume（超卖+支撑+放量企稳）虽无完全历史匹配，但其核",PENDING,N/A,N/A,0.4861,N/A,N/A,,Decision made at bar 4795
+2025-01-08T04:00:00,,SYSTEM_ORDER,N/A,N/A,N/A,N/A,MARKET: Buy,FILLED,96526.80,0.2157,0.7018,0.7018,N/A,,MARKET order execution
+2025-01-08T08:00:00,,SYSTEM_ORDER,N/A,N/A,N/A,N/A,STOP_LOSS: Sell,FILLED,95000.00,-0.7018,0.0000,0.0000,N/A,,STOP_LOSS order execution
+2025-01-08T08:00:00,4796,CLOSE,N/A,N/A,N/A,N/A,Trade closed: LOSS,COMPLETED,N/A,N/A,0.0000,0.0000,-1731.95,,"LONG trade closed, duration: 4 bars, outcome: LOSS"
+2025-01-08T12:00:00,4798,LONG,95481.40,25.00%,98800.00,94900.00,"基于历史模式匹配（Pattern_Reversal_Oversold_Support）与当前市场数据的辩证验证，我做出以下决策：
+
+1. **历史模式验证**：小明识别的Pattern_Reversa",PENDING,N/A,N/A,0.0000,N/A,N/A,,Decision made at bar 4798
+2025-01-08T16:00:00,,SYSTEM_ORDER,N/A,N/A,N/A,N/A,MARKET: Buy,FILLED,95481.50,0.2699,0.2699,0.2699,N/A,,MARKET order execution
+2025-01-09T00:00:00,4801,LONG,94022.30,35.00%,98800.00,93500.00,尽管历史模式 Pattern_SupportTest_OversoldDivergence 的胜率为 0%（仅1次样本），但其所有特征与当前市场高度吻合——4H价格逼近关键支撑92500（当前价940,PENDING,N/A,N/A,0.2699,N/A,N/A,,Decision made at bar 4801
+2025-01-09T04:00:00,,SYSTEM_ORDER,N/A,N/A,N/A,N/A,MARKET: Buy,FILLED,94022.30,0.1122,0.3821,0.3821,N/A,,MARKET order execution
+2025-01-09T08:00:00,4803,LONG,93466.60,55.00%,98800.00,93000.00,当前价格93467紧贴4H关键支撑92500（仅差1.03%），RSI_6=25.76、RSI_12=30.87、RSI_24=38.95均处超卖区间，且出现RSI_Weak_Bullish_Dive,PENDING,N/A,N/A,0.3821,N/A,N/A,,Decision made at bar 4803
+2025-01-09T12:00:00,,SYSTEM_ORDER,N/A,N/A,N/A,N/A,MARKET: Buy,FILLED,93466.60,0.2206,0.6027,0.6027,N/A,,MARKET order execution
+2025-01-09T16:00:00,,SYSTEM_ORDER,N/A,N/A,N/A,N/A,STOP_LOSS: Sell,FILLED,93000.00,-0.6027,0.0000,0.0000,N/A,,STOP_LOSS order execution
+2025-01-09T16:00:00,4804,CLOSE,N/A,N/A,N/A,N/A,Trade closed: LOSS,COMPLETED,N/A,N/A,0.0000,0.0000,-1000.32,,"LONG trade closed, duration: 6 bars, outcome: LOSS"
+2025-01-09T20:00:00,4806,LONG,92553.10,15.00%,96800.00,91200.00,基于历史模式Pattern_Support_Rebound_WeakDivergence虽胜率0%（仅1样本），但当前市场环境已发生结构性升级：① 价格触及4H强支撑91200（历史密集成交区），RS,PENDING,N/A,N/A,0.0000,N/A,N/A,,Decision made at bar 4806
+2025-01-10T00:00:00,,SYSTEM_ORDER,N/A,N/A,N/A,N/A,MARKET: Buy,FILLED,92553.00,0.1654,0.1654,0.1654,N/A,,MARKET order execution
+2025-01-10T12:00:00,4810,LONG,93734.90,25.00%,96800.00,91200.00,基于Agent A的深度分析与历史模式匹配的辩证验证：当前4H MACD柱状图由-736.98转正至+10.21，配合20K线峰值成交量4132，形成典型的‘空头衰竭+多头反扑’动能反转信号，RSI_,PENDING,N/A,N/A,0.1654,N/A,N/A,,Decision made at bar 4810
+2025-01-10T16:00:00,,SYSTEM_ORDER,N/A,N/A,N/A,N/A,MARKET: Buy,FILLED,93735.00,0.1073,0.2727,0.2727,N/A,,MARKET order execution
+2025-01-13T08:00:00,,SYSTEM_ORDER,N/A,N/A,N/A,N/A,STOP_LOSS: Sell,FILLED,91200.00,-0.2727,0.0000,0.0000,N/A,,STOP_LOSS order execution
+2025-01-13T08:00:00,4826,CLOSE,N/A,N/A,N/A,N/A,Trade closed: LOSS,COMPLETED,N/A,N/A,0.0000,0.0000,-546.00,,"LONG trade closed, duration: 20 bars, outcome: LOSS"
+2025-01-13T12:00:00,4828,LONG,92123.50,35.00%,95947.00,89111.00,基于多周期共振的高胜率历史模式 Pattern_SupportResonance_BullContext（置信度75%），当前价格92124位于4H支撑89111上方3.4%、日线支撑区22%位置，R,PENDING,N/A,N/A,0.0000,N/A,N/A,,Decision made at bar 4828
+2025-01-13T16:00:00,,SYSTEM_ORDER,N/A,N/A,N/A,N/A,MARKET: Buy,FILLED,92123.60,0.3857,0.3857,0.3857,N/A,,MARKET order execution
+2025-01-13T16:00:00,4829,LONG,92303.80,55.00%,95947.00,89111.00,基于Agent A的深度分析与历史模式Pattern_Reversal_SupportOversold的强信号（置信度82.5%），当前价格92304处于4H关键支撑89111上方3.5%，RSI_6,PENDING,N/A,N/A,0.3857,N/A,N/A,,Decision made at bar 4829
+2025-01-13T20:00:00,,SYSTEM_ORDER,N/A,N/A,N/A,N/A,MARKET: Buy,FILLED,92314.20,0.2194,0.6051,0.6051,N/A,,MARKET order execution
+2025-01-14T08:00:00,,SYSTEM_ORDER,N/A,N/A,N/A,N/A,TAKE_PROFIT: Sell,FILLED,95947.00,-0.6051,0.0000,0.0000,N/A,,TAKE_PROFIT order execution
+2025-01-14T08:00:00,4832,CLOSE,N/A,N/A,N/A,N/A,Trade closed: WIN,COMPLETED,N/A,N/A,0.0000,0.0000,+2157.92,,"LONG trade closed, duration: 4 bars, outcome: WIN"
+2025-01-14T12:00:00,4834,LONG,96475.70,35.00%,101800.00,93500.00,尽管历史模式 Pattern_Breakout_AtAllTimeHigh_VolumeSpike 胜率为0%（仅1次样本），但该模式缺乏关键多周期共振条件，而当前市场已形成远超历史强度的全新结构：4,PENDING,N/A,N/A,0.0000,N/A,N/A,,Decision made at bar 4834
+2025-01-14T16:00:00,,SYSTEM_ORDER,N/A,N/A,N/A,N/A,MARKET: Buy,FILLED,96475.70,0.3761,0.3761,0.3761,N/A,,MARKET order execution
+2025-01-14T16:00:00,4835,SHORT,96545.10,25.00%,94800.00,97200.00,基于Agent A的深度分析与历史模式匹配，当前市场呈现‘4H动量顶背离+放量冲高后缩量滞涨’的高失败概率结构（Pattern_MomentumDivergence_VolumeContraction,PENDING,N/A,N/A,0.3761,N/A,N/A,,Decision made at bar 4835
+2025-01-14T20:00:00,,SYSTEM_ORDER,N/A,N/A,N/A,N/A,MARKET: Sell,FILLED,96539.10,-0.6446,-0.2684,-0.2684,N/A,,MARKET order execution
+2025-01-14T20:00:00,4835,CLOSE,N/A,N/A,N/A,N/A,Trade closed: LOSS,COMPLETED,N/A,N/A,0.0000,0.0000,-48.75,,"SHORT trade closed, duration: 1 bars, outcome: LOSS"
+2025-01-15T00:00:00,,SYSTEM_ORDER,N/A,N/A,N/A,N/A,STOP_LOSS: Buy,FILLED,97200.00,0.2684,0.0000,0.0000,N/A,,STOP_LOSS order execution
+2025-01-15T00:00:00,4836,CLOSE,N/A,N/A,N/A,N/A,Trade closed: LOSS,COMPLETED,N/A,N/A,0.0000,0.0000,-230.13,,"SHORT trade closed, duration: 1 bars, outcome: LOSS"
+2025-01-15T04:00:00,4838,SHORT,97294.90,35.00%,94800.00,98500.00,当前市场完全符合历史模式 Pattern_Reversal_Divergence_Volume 的13/14项核心条件，且胜率100%（尽管样本量为1），同时被Agent A的深度分析强化为'Pric,PENDING,N/A,N/A,0.0000,N/A,N/A,,Decision made at bar 4838
+2025-01-15T08:00:00,,SYSTEM_ORDER,N/A,N/A,N/A,N/A,MARKET: Sell,FILLED,97294.90,-0.3720,-0.3720,-0.3720,N/A,,MARKET order execution
+2025-01-15T12:00:00,,SYSTEM_ORDER,N/A,N/A,N/A,N/A,STOP_LOSS: Buy,FILLED,98500.00,0.3720,0.0000,0.0000,N/A,,STOP_LOSS order execution
+2025-01-15T12:00:00,4839,CLOSE,N/A,N/A,N/A,N/A,Trade closed: LOSS,COMPLETED,N/A,N/A,0.0000,0.0000,-521.07,,"SHORT trade closed, duration: 1 bars, outcome: LOSS"
+2025-01-15T16:00:00,4841,LONG,99846.00,35.00%,102800.00,97200.00,基于历史模式 Pattern_Bull_NewHigh_NewVolume 的100%胜率记录，当前市场16/17项条件完全匹配，唯一缺失的 Price_AtResistance_Weekly 未触发,PENDING,N/A,N/A,0.0000,N/A,N/A,,Decision made at bar 4841
+2025-01-15T20:00:00,,SYSTEM_ORDER,N/A,N/A,N/A,N/A,MARKET: Buy,FILLED,99846.10,0.3606,0.3606,0.3606,N/A,,MARKET order execution
+2025-01-16T08:00:00,,SYSTEM_ORDER,N/A,N/A,N/A,N/A,MARKET: Sell,FILLED,99812.90,-0.3606,0.0000,0.0000,N/A,,MARKET order execution
+2025-01-16T08:00:00,4844,CLOSE,N/A,N/A,N/A,N/A,Trade closed: LOSS,COMPLETED,N/A,N/A,0.0000,0.0000,-83.97,,"LONG trade closed, duration: 3 bars, outcome: LOSS"
+2025-01-16T16:00:00,4847,SHORT,100415.10,35.00%,97200.00,101800.00,基于历史模式Pattern_Reversal_Divergence_Volume胜率为0%且仅1次样本，结合Agent A深度分析的Pattern_Resist_MultiTimeframe_Volu,PENDING,N/A,N/A,0.0000,N/A,N/A,,Decision made at bar 4847
+2025-01-16T20:00:00,,SYSTEM_ORDER,N/A,N/A,N/A,N/A,MARKET: Sell,FILLED,100415.20,-0.3583,-0.3583,-0.3583,N/A,,MARKET order execution
+2025-01-17T00:00:00,,SYSTEM_ORDER,N/A,N/A,N/A,N/A,STOP_LOSS: Buy,FILLED,101800.00,0.3583,0.0000,0.0000,N/A,,STOP_LOSS order execution
+2025-01-17T00:00:00,4848,CLOSE,N/A,N/A,N/A,N/A,Trade closed: LOSS,COMPLETED,N/A,N/A,0.0000,0.0000,-569.60,,"SHORT trade closed, duration: 1 bars, outcome: LOSS"
+2025-01-17T08:00:00,4851,SHORT,102229.80,35.00%,98800.00,103500.00,基于历史模式Pattern_Reversal_Divergence_Volume的匹配度与Agent A的深度分析，当前市场呈现多周期共振的反转预警信号：价格位于4H/日线/周线三重阻力区（10259,PENDING,N/A,N/A,0.0000,N/A,N/A,,Decision made at bar 4851
+2025-01-17T12:00:00,,SYSTEM_ORDER,N/A,N/A,N/A,N/A,MARKET: Sell,FILLED,102229.80,-0.3500,-0.3500,-0.3500,N/A,,MARKET order execution
+2025-01-17T12:00:00,4852,SHORT,104013.60,65.00%,98800.00,104500.00,当前市场虽处于多周期趋势多头（4H/日/周/月线均Uptrend），但核心失败驱动因子全面触发：月线成交量较前高萎缩47.6%（53.6万→28.1万），4H/日线量能持续下降，形成‘月线新高无量’顶,PENDING,N/A,N/A,-0.3500,N/A,N/A,,Decision made at bar 4852
+2025-01-17T16:00:00,,SYSTEM_ORDER,N/A,N/A,N/A,N/A,MARKET: Sell,FILLED,104013.60,-0.2847,-0.6347,-0.6347,N/A,,MARKET order execution
+2025-01-17T20:00:00,4854,SHORT,104084.40,75.00%,98800.00,104500.00,当前价格104084处于4H、日线、周线三重历史阻力区（105847/108365），价格未突破且出现‘价升量缩’经典顶部背离，4H RSI_6从90.79骤降至67.75，RSI_12/24同步回落,PENDING,N/A,N/A,-0.6347,N/A,N/A,,Decision made at bar 4854
+2025-01-18T00:00:00,,SYSTEM_ORDER,N/A,N/A,N/A,N/A,MARKET: Sell,FILLED,104084.50,-0.0966,-0.7313,-0.7313,N/A,,MARKET order execution
+2025-01-18T08:00:00,,SYSTEM_ORDER,N/A,N/A,N/A,N/A,MARKET: Buy,FILLED,102827.50,0.7313,0.0000,0.0000,N/A,,MARKET order execution
+2025-01-18T08:00:00,4856,CLOSE,N/A,N/A,N/A,N/A,Trade closed: WIN,COMPLETED,N/A,N/A,0.0000,0.0000,+97.51,,"SHORT trade closed, duration: 5 bars, outcome: WIN"
+2025-01-18T12:00:00,4858,SHORT,104561.40,35.00%,101800.00,105200.00,基于历史模式匹配与当前市场结构的辩证分析，我确认当前行情处于高概率反转临界点。尽管历史Pattern_Reversal_Divergence_Volume胜率为0%（仅1例），但其定义特征与当前市场高,PENDING,N/A,N/A,0.0000,N/A,N/A,,Decision made at bar 4858
+2025-01-18T16:00:00,,SYSTEM_ORDER,N/A,N/A,N/A,N/A,MARKET: Sell,FILLED,104561.40,-0.3425,-0.3425,-0.3425,N/A,,MARKET order execution
+2025-01-19T00:00:00,,SYSTEM_ORDER,N/A,N/A,N/A,N/A,STOP_LOSS: Buy,FILLED,105200.00,0.3425,0.0000,0.0000,N/A,,STOP_LOSS order execution
+2025-01-19T00:00:00,4860,CLOSE,N/A,N/A,N/A,N/A,Trade closed: LOSS,COMPLETED,N/A,N/A,0.0000,0.0000,-291.55,,"SHORT trade closed, duration: 2 bars, outcome: LOSS"
+2025-01-19T04:00:00,4862,SHORT,105164.90,35.00%,101800.00,105850.00,当前市场完美匹配历史高胜率模式 Pattern_Reversal_Divergence_VolumeCrash_Extreme（100%胜率），且无任何失败驱动因子（Trend_Consolidati,PENDING,N/A,N/A,0.0000,N/A,N/A,,Decision made at bar 4862
+2025-01-19T08:00:00,,SYSTEM_ORDER,N/A,N/A,N/A,N/A,MARKET: Sell,FILLED,105164.90,-0.3396,-0.3396,-0.3396,N/A,,MARKET order execution
+2025-01-19T16:00:00,,SYSTEM_ORDER,N/A,N/A,N/A,N/A,STOP_LOSS: Buy,FILLED,105850.00,0.3396,0.0000,0.0000,N/A,,STOP_LOSS order execution
+2025-01-19T16:00:00,4864,CLOSE,N/A,N/A,N/A,N/A,Trade closed: LOSS,COMPLETED,N/A,N/A,0.0000,0.0000,-304.29,,"SHORT trade closed, duration: 2 bars, outcome: LOSS"
+2025-01-19T20:00:00,4866,SHORT,101334.00,45.00%,98800.00,102800.00,基于Agent A的深度分析与历史模式辩证验证，当前市场呈现高置信度（92.5%）的顶部反转结构：4H价格从106217大幅回落4.6%，MACD柱状图由正转负（-336.97），DIF下穿DEA，R,PENDING,N/A,N/A,0.0000,N/A,N/A,,Decision made at bar 4866
+2025-01-20T00:00:00,,SYSTEM_ORDER,N/A,N/A,N/A,N/A,MARKET: Sell,FILLED,101334.00,-0.4517,-0.4517,-0.4517,N/A,,MARKET order execution
+2025-01-20T04:00:00,,SYSTEM_ORDER,N/A,N/A,N/A,N/A,STOP_LOSS: Buy,FILLED,102800.00,0.4517,0.0000,0.0000,N/A,,STOP_LOSS order execution
+2025-01-20T04:00:00,4867,CLOSE,N/A,N/A,N/A,N/A,Trade closed: LOSS,COMPLETED,N/A,N/A,0.0000,0.0000,-754.46,,"SHORT trade closed, duration: 1 bars, outcome: LOSS"
+2025-01-20T12:00:00,4870,SHORT,104940.70,45.00%,101800.00,105850.00,基于Agent A的深度分析与历史模式匹配，当前市场呈现高胜率反转信号：4H周期RSI_6（86.94）、RSI_12（78.67）、RSI_24（72.04）三线同步超买，MACD柱状图由正转负至-,PENDING,N/A,N/A,0.0000,N/A,N/A,,Decision made at bar 4870
+2025-01-20T16:00:00,,SYSTEM_ORDER,N/A,N/A,N/A,N/A,MARKET: Sell,FILLED,104950.30,-0.4330,-0.4330,-0.4330,N/A,,MARKET order execution
+2025-01-20T20:00:00,,SYSTEM_ORDER,N/A,N/A,N/A,N/A,TAKE_PROFIT: Buy,FILLED,101800.00,0.4330,0.0000,0.0000,N/A,,TAKE_PROFIT order execution
+2025-01-20T20:00:00,4871,CLOSE,N/A,N/A,N/A,N/A,Trade closed: WIN,COMPLETED,N/A,N/A,0.0000,0.0000,+1274.49,,"SHORT trade closed, duration: 1 bars, outcome: WIN"
+2025-01-21T04:00:00,4874,SHORT,101994.80,35.00%,98800.00,103500.00,基于Agent A的深度分析与历史模式Pattern_Resistance_Divergence_VolumeDecline的强匹配（置信度85%），当前市场呈现三重高概率做空信号：1）价格位于周线历,PENDING,N/A,N/A,0.0000,N/A,N/A,,Decision made at bar 4874
+2025-01-21T08:00:00,,SYSTEM_ORDER,N/A,N/A,N/A,N/A,MARKET: Sell,FILLED,101994.80,-0.3509,-0.3509,-0.3509,N/A,,MARKET order execution
+2025-01-21T08:00:00,4875,SHORT,103750.10,45.00%,98800.00,104500.00,当前市场完全符合历史Pattern_Reversal_Divergence_Resist的强信号结构：4H MACD柱状图持续扩大至-487.23，价格在104978创出新高但动能衰竭，形成经典背离；,PENDING,N/A,N/A,-0.3509,N/A,N/A,,Decision made at bar 4875
+2025-01-21T12:00:00,,SYSTEM_ORDER,N/A,N/A,N/A,N/A,MARKET: Sell,FILLED,103750.10,-0.0898,-0.4406,-0.4406,N/A,,MARKET order execution
+2025-01-21T16:00:00,,SYSTEM_ORDER,N/A,N/A,N/A,N/A,STOP_LOSS: Buy,FILLED,104500.00,0.4406,0.0000,0.0000,N/A,,STOP_LOSS order execution
+2025-01-21T16:00:00,4876,CLOSE,N/A,N/A,N/A,N/A,Trade closed: LOSS,COMPLETED,N/A,N/A,0.0000,0.0000,-1037.45,,"SHORT trade closed, duration: 2 bars, outcome: LOSS"
+2025-01-22T00:00:00,4879,SHORT,105607.00,35.00%,101800.00,106800.00,当前市场处于周线93%、月线95%的历史极值阻力区，价格105607距前高109800仅4.1%，已进入无历史参照的‘无人区’。日线出现26175异常放量后迅速缩量至11849，形成经典‘放量滞涨’派,PENDING,N/A,N/A,0.0000,N/A,N/A,,Decision made at bar 4879
+2025-01-22T04:00:00,,SYSTEM_ORDER,N/A,N/A,N/A,N/A,MARKET: Sell,FILLED,105607.00,-0.3354,-0.3354,-0.3354,N/A,,MARKET order execution
+2025-01-23T04:00:00,,SYSTEM_ORDER,N/A,N/A,N/A,N/A,TAKE_PROFIT: Buy,FILLED,101800.00,0.3354,0.0000,0.0000,N/A,,TAKE_PROFIT order execution
+2025-01-23T04:00:00,4885,CLOSE,N/A,N/A,N/A,N/A,Trade closed: WIN,COMPLETED,N/A,N/A,0.0000,0.0000,+1206.41,,"SHORT trade closed, duration: 6 bars, outcome: WIN"
+2025-01-23T08:00:00,4887,SHORT,101943.60,45.00%,98800.00,103500.00,基于Agent A的深度分析与历史模式匹配，当前市场呈现高置信度顶部确认结构（Pattern_TopConfirmation_ExtremeVolume），核心DNA：Price_Extreme_Mo,PENDING,N/A,N/A,0.0000,N/A,N/A,,Decision made at bar 4887
+2025-01-23T12:00:00,,SYSTEM_ORDER,N/A,N/A,N/A,N/A,MARKET: Sell,FILLED,101943.60,-0.4521,-0.4521,-0.4521,N/A,,MARKET order execution
+2025-01-24T08:00:00,,SYSTEM_ORDER,N/A,N/A,N/A,N/A,MARKET: Buy,FILLED,105041.30,0.4521,0.0000,0.0000,N/A,,MARKET order execution
+2025-01-24T08:00:00,4892,CLOSE,N/A,N/A,N/A,N/A,Trade closed: LOSS,COMPLETED,N/A,N/A,0.0000,0.0000,-1495.24,,"SHORT trade closed, duration: 5 bars, outcome: LOSS"
+2025-01-25T16:00:00,4901,SHORT,105042.70,35.00%,101800.00,106800.00,基于历史模式 Pattern_Resistance_WeakBreakout 的100%胜率记录，当前价格105043精准命中周线阻力位109800下方、4H MACD顶背离、日线与4H成交量断崖式萎,PENDING,N/A,N/A,0.0000,N/A,N/A,,Decision made at bar 4901
+2025-01-25T20:00:00,,SYSTEM_ORDER,N/A,N/A,N/A,N/A,MARKET: Sell,FILLED,105042.80,-0.3363,-0.3363,-0.3363,N/A,,MARKET order execution
+2025-01-26T04:00:00,,SYSTEM_ORDER,N/A,N/A,N/A,N/A,MARKET: Buy,FILLED,105060.00,0.3363,0.0000,0.0000,N/A,,MARKET order execution
+2025-01-26T04:00:00,4903,CLOSE,N/A,N/A,N/A,N/A,Trade closed: LOSS,COMPLETED,N/A,N/A,0.0000,0.0000,-77.40,,"SHORT trade closed, duration: 2 bars, outcome: LOSS"
+2025-01-26T08:00:00,4905,SHORT,104820.00,35.00%,101800.00,105850.00,基于Agent A的深度分析与历史模式匹配，当前市场呈现典型的'Pattern_Reversal_Divergence_VolumeCollapse'结构：价格在月线历史高点104820附近创出新高，,PENDING,N/A,N/A,0.0000,N/A,N/A,,Decision made at bar 4905
+2025-01-26T12:00:00,,SYSTEM_ORDER,N/A,N/A,N/A,N/A,MARKET: Sell,FILLED,104820.10,-0.3367,-0.3367,-0.3367,N/A,,MARKET order execution
+2025-01-27T00:00:00,,SYSTEM_ORDER,N/A,N/A,N/A,N/A,TAKE_PROFIT: Buy,FILLED,101800.00,0.3367,0.3367,0.3367,N/A,,TAKE_PROFIT order execution
+2025-01-27T00:00:00,,SYSTEM_ORDER,N/A,N/A,N/A,N/A,MARKET: Buy,FILLED,102600.70,0.3367,0.3367,0.3367,N/A,,MARKET order execution
+2025-01-27T00:00:00,4908,CLOSE,N/A,N/A,N/A,N/A,Trade closed: WIN,COMPLETED,N/A,N/A,0.0000,0.0000,+946.38,,"SHORT trade closed, duration: 3 bars, outcome: WIN"
+2025-01-27T04:00:00,4910,SHORT,99036.40,15.00%,100500.00,101200.00,当前市场高度匹配历史Pattern_SupportTest_OversoldDivergence的核心特征：RSI_6=8.79（极端超卖）、MACD动能柱持续负向放大至-592、价格触及4H支撑位9,PENDING,N/A,N/A,0.3367,N/A,N/A,,Decision made at bar 4910
+2025-01-27T08:00:00,,SYSTEM_ORDER,N/A,N/A,N/A,N/A,MARKET: Sell,FILLED,99036.10,-0.4890,-0.1523,-0.1523,N/A,,MARKET order execution
+2025-01-27T08:00:00,4910,CLOSE,N/A,N/A,N/A,N/A,Trade closed: LOSS,COMPLETED,N/A,N/A,0.0000,0.0000,-1268.15,,"SHORT trade closed, duration: 2 bars, outcome: LOSS"
+2025-01-27T12:00:00,,SYSTEM_ORDER,N/A,N/A,N/A,N/A,STOP_LOSS: Buy,FILLED,101200.00,0.1523,0.0000,0.0000,N/A,,STOP_LOSS order execution
+2025-01-27T12:00:00,4911,CLOSE,N/A,N/A,N/A,N/A,Trade closed: LOSS,COMPLETED,N/A,N/A,0.0000,0.0000,-360.05,,"SHORT trade closed, duration: 1 bars, outcome: LOSS"
+2025-01-28T00:00:00,4915,SHORT,102627.50,35.00%,98800.00,103500.00,基于Agent A的深度分析与历史模式匹配，当前市场呈现高概率的'Pattern_HighResistance_WeakRebound'结构：价格在105862日线阻力位三次测试未破，4H MACD负,PENDING,N/A,N/A,0.0000,N/A,N/A,,Decision made at bar 4915
+2025-01-28T04:00:00,,SYSTEM_ORDER,N/A,N/A,N/A,N/A,MARKET: Sell,FILLED,102627.60,-0.3416,-0.3416,-0.3416,N/A,,MARKET order execution
+2025-01-28T12:00:00,,SYSTEM_ORDER,N/A,N/A,N/A,N/A,STOP_LOSS: Buy,FILLED,103500.00,0.3416,0.0000,0.0000,N/A,,STOP_LOSS order execution
+2025-01-28T12:00:00,4917,CLOSE,N/A,N/A,N/A,N/A,Trade closed: LOSS,COMPLETED,N/A,N/A,0.0000,0.0000,-368.41,,"SHORT trade closed, duration: 2 bars, outcome: LOSS"
+2025-01-28T16:00:00,4919,LONG,102428.40,35.00%,105800.00,100800.00,基于Agent A的深度分析与历史模式匹配的辩证整合，当前市场呈现罕见但高胜率的多头启动前奏：4H MACD动能由-727.79极端负值反转至+105.13，修复幅度超90%，RSI_6从超卖区（14,PENDING,N/A,N/A,0.0000,N/A,N/A,,Decision made at bar 4919
+2025-01-28T20:00:00,,SYSTEM_ORDER,N/A,N/A,N/A,N/A,MARKET: Buy,FILLED,102427.90,0.3410,0.3410,0.3410,N/A,,MARKET order execution
+2025-01-29T00:00:00,4921,LONG,102043.20,45.00%,105800.00,100800.00,基于Agent A的深度分析与历史模式匹配，当前市场呈现'Pattern_Bull_Reversal_MomentumShift'的高置信度信号（78.5%），核心DNA为Momentum_Rever,PENDING,N/A,N/A,0.3410,N/A,N/A,,Decision made at bar 4921
+2025-01-29T04:00:00,,SYSTEM_ORDER,N/A,N/A,N/A,N/A,MARKET: Buy,FILLED,102043.30,0.0983,0.4393,0.4393,N/A,,MARKET order execution
+2025-01-30T12:00:00,,SYSTEM_ORDER,N/A,N/A,N/A,N/A,TAKE_PROFIT: Sell,FILLED,105800.00,-0.4393,0.0000,0.0000,N/A,,TAKE_PROFIT order execution
+2025-01-30T12:00:00,4929,CLOSE,N/A,N/A,N/A,N/A,Trade closed: WIN,COMPLETED,N/A,N/A,0.0000,0.0000,+1427.87,,"LONG trade closed, duration: 10 bars, outcome: WIN"
+2025-01-30T20:00:00,4932,LONG,104727.20,35.00%,109800.00,102000.00,当前价格104727处于4H/1D/1W/1M四周期同步强势上涨的极端高位，月线分位94%、周线90%，MACD动能柱仍处历史高位（355.64），DIF与DEA未拐头，趋势动能未衰竭。RSI_6从7,PENDING,N/A,N/A,0.0000,N/A,N/A,,Decision made at bar 4932
+2025-01-31T00:00:00,,SYSTEM_ORDER,N/A,N/A,N/A,N/A,MARKET: Buy,FILLED,104727.20,0.3383,0.3383,0.3383,N/A,,MARKET order execution
+2025-01-31T16:00:00,,SYSTEM_ORDER,N/A,N/A,N/A,N/A,MARKET: Sell,FILLED,105437.90,-0.3383,0.0000,0.0000,N/A,,MARKET order execution
+2025-01-31T16:00:00,4936,CLOSE,N/A,N/A,N/A,N/A,Trade closed: WIN,COMPLETED,N/A,N/A,0.0000,0.0000,+169.32,,"LONG trade closed, duration: 4 bars, outcome: WIN"
+2025-01-31T20:00:00,4938,LONG,102439.90,35.00%,105800.00,100800.00,基于Agent A的深度分析与历史模式匹配的辩证整合，当前市场呈现‘高位震荡中支撑企稳’的核心特征：4H价格位于关键支撑100274上方2166点（35%区间位置），RSI从78.73健康回调至32.,PENDING,N/A,N/A,0.0000,N/A,N/A,,Decision made at bar 4938
+2025-02-01T00:00:00,,SYSTEM_ORDER,N/A,N/A,N/A,N/A,MARKET: Buy,FILLED,102440.00,0.3464,0.3464,0.3464,N/A,,MARKET order execution
+2025-02-01T20:00:00,,SYSTEM_ORDER,N/A,N/A,N/A,N/A,STOP_LOSS: Sell,FILLED,100800.00,-0.3464,0.0000,0.0000,N/A,,STOP_LOSS order execution
+2025-02-01T20:00:00,4943,CLOSE,N/A,N/A,N/A,N/A,Trade closed: LOSS,COMPLETED,N/A,N/A,0.0000,0.0000,-638.51,,"LONG trade closed, duration: 5 bars, outcome: LOSS"
+2025-02-02T00:00:00,4945,LONG,99197.30,45.00%,102800.00,97800.00,当前市场状态虽与历史Pattern_SupportTest_OversoldDivergence（胜率0%）在技术指标上完全匹配，但小明的深度分析揭示了关键进化：RSI_6=11.25（近20K线历史,PENDING,N/A,N/A,0.0000,N/A,N/A,,Decision made at bar 4945
+2025-02-02T04:00:00,,SYSTEM_ORDER,N/A,N/A,N/A,N/A,MARKET: Buy,FILLED,99197.30,0.4570,0.4570,0.4570,N/A,,MARKET order execution
+2025-02-02T08:00:00,4947,LONG,98873.50,65.00%,102800.00,97800.00,当前市场虽处于4H与日线下跌趋势，但已深度超卖（RSI_6=17.26），价格紧贴4H关键支撑98620（仅差0.26%），MACD动能柱连续5根K线未创新低，显示空头衰竭。历史模式Pattern_S,PENDING,N/A,N/A,0.4570,N/A,N/A,,Decision made at bar 4947
+2025-02-02T12:00:00,,SYSTEM_ORDER,N/A,N/A,N/A,N/A,MARKET: Buy,FILLED,98873.40,0.2040,0.6611,0.6611,N/A,,MARKET order execution
+2025-02-02T16:00:00,,SYSTEM_ORDER,N/A,N/A,N/A,N/A,STOP_LOSS: Sell,FILLED,97800.00,-0.6611,0.0000,0.0000,N/A,,STOP_LOSS order execution
+2025-02-02T16:00:00,4948,CLOSE,N/A,N/A,N/A,N/A,Trade closed: LOSS,COMPLETED,N/A,N/A,0.0000,0.0000,-987.79,,"LONG trade closed, duration: 3 bars, outcome: LOSS"
+2025-02-03T00:00:00,4951,LONG,94045.10,45.00%,98800.00,91183.00,基于历史模式 Pattern_Reversal_SupportVolumeSpike 的100%胜率记录，当前市场完全匹配核心DNA：RSI_6=8.59（极端超卖）、价格逼近4H关键支撑91183（,PENDING,N/A,N/A,0.0000,N/A,N/A,,Decision made at bar 4951
+2025-02-03T04:00:00,,SYSTEM_ORDER,N/A,N/A,N/A,N/A,MARKET: Buy,FILLED,94045.20,0.4774,0.4774,0.4774,N/A,,MARKET order execution
+2025-02-03T04:00:00,4952,LONG,95314.00,60.00%,98800.00,91183.00,基于历史模式 Pattern_Reversal_SupportVolumeSpike 的100%胜率记录与当前市场信号的完全匹配，我高度信任该反转结构。当前价格95314位于4H关键支撑91183上方,PENDING,N/A,N/A,0.4774,N/A,N/A,,Decision made at bar 4952
+2025-02-03T08:00:00,,SYSTEM_ORDER,N/A,N/A,N/A,N/A,MARKET: Buy,FILLED,95316.70,0.1542,0.6315,0.6315,N/A,,MARKET order execution
+2025-02-03T08:00:00,4953,SHORT,95113.00,45.00%,91183.00,95800.00,尽管历史模式 Pattern_Reversal_SupportVolumeSpike 胜率100%，但其成功前提是‘中期回调中的支撑反弹’，而当前市场处于月线83%历史极值区，属于‘高位流动性出逃前兆,PENDING,N/A,N/A,0.6315,N/A,N/A,,Decision made at bar 4953
+2025-02-03T12:00:00,,SYSTEM_ORDER,N/A,N/A,N/A,N/A,TAKE_PROFIT: Sell,FILLED,98800.00,-0.6315,-1.1055,-1.1055,N/A,,TAKE_PROFIT order execution
+2025-02-03T12:00:00,,SYSTEM_ORDER,N/A,N/A,N/A,N/A,MARKET: Sell,FILLED,95113.10,-1.1055,-1.1055,-1.1055,N/A,,MARKET order execution
+2025-02-03T12:00:00,4953,CLOSE,N/A,N/A,N/A,N/A,Trade closed: WIN,COMPLETED,N/A,N/A,0.0000,0.0000,+2684.79,,"SHORT trade closed, duration: 2 bars, outcome: WIN"
+2025-02-03T16:00:00,4955,SHORT,101887.90,45.00%,98000.00,103500.00,基于Agent A的深度分析与历史模式匹配，当前市场呈现典型的Pattern_Reversal_Divergence_MTF结构：价格位于月线91%极端高位、周线84%高位，但量能持续萎缩（4H成交量,PENDING,N/A,N/A,-1.1055,N/A,N/A,,Decision made at bar 4955
+2025-02-03T20:00:00,,SYSTEM_ORDER,N/A,N/A,N/A,N/A,MARKET: Buy,FILLED,101887.90,0.6866,-0.4189,-0.4189,N/A,,MARKET order execution
+2025-02-03T20:00:00,4956,SHORT,101337.50,65.00%,98000.00,103500.00,尽管Agent A的深度分析指出MACD动能从-700强劲反转至+297、成交量激增、RSI超卖修复，看似构成‘Pattern_MomentumShift_MACD_VolumeSpike’的多头突破,PENDING,N/A,N/A,-0.4189,N/A,N/A,,Decision made at bar 4956
+2025-02-04T00:00:00,,SYSTEM_ORDER,N/A,N/A,N/A,N/A,MARKET: Sell,FILLED,101337.60,-0.1905,-0.6094,-0.6094,N/A,,MARKET order execution
+2025-02-04T04:00:00,4957,Market,98450.00,N/A,N/A,N/A,Error occurred,FAILED,N/A,N/A,N/A,N/A,N/A,Order Margin: Margin,Error during Market execution
+2025-02-04T04:00:00,4958,LONG,98450.00,45.00%,102800.00,96800.00,基于Agent A的深度分析与历史模式验证，当前市场呈现罕见的多周期共振反转信号：4H MACD负值区金叉+动能从-699反转至+313，RSI_6从8.59回升至30，成交量放大至14686（近20,PENDING,N/A,N/A,-0.6094,N/A,N/A,,Decision made at bar 4958
+2025-02-04T08:00:00,,SYSTEM_ORDER,N/A,N/A,N/A,N/A,TAKE_PROFIT: Buy,FILLED,98000.00,0.6094,0.0000,0.0000,N/A,,TAKE_PROFIT order execution
+2025-02-04T08:00:00,4958,Market,98974.50,N/A,N/A,N/A,Error occurred,FAILED,N/A,N/A,N/A,N/A,N/A,Order Margin: Margin,Error during Market execution
+2025-02-04T08:00:00,4958,CLOSE,N/A,N/A,N/A,N/A,Trade closed: LOSS,COMPLETED,N/A,N/A,0.0000,0.0000,-5480.25,,"LONG trade closed, duration: 5 bars, outcome: LOSS"
+2025-02-06T00:00:00,4969,SHORT,97348.00,35.00%,94000.00,98800.00,基于Agent A的深度分析与历史模式匹配的辩证整合，当前市场呈现‘高位三重背离’结构：4H MACD动能由正转负、1D量能断崖萎缩（下降76%）、1W价格未创新高且位于76%历史高位，构成Patte,PENDING,N/A,N/A,0.0000,N/A,N/A,,Decision made at bar 4969
+2025-02-06T04:00:00,,SYSTEM_ORDER,N/A,N/A,N/A,N/A,MARKET: Sell,FILLED,97348.10,-0.3486,-0.3486,-0.3486,N/A,,MARKET order execution
+2025-02-06T08:00:00,,SYSTEM_ORDER,N/A,N/A,N/A,N/A,STOP_LOSS: Buy,FILLED,98800.00,0.3486,0.0000,0.0000,N/A,,STOP_LOSS order execution
+2025-02-06T08:00:00,4970,CLOSE,N/A,N/A,N/A,N/A,Trade closed: LOSS,COMPLETED,N/A,N/A,0.0000,0.0000,-574.56,,"SHORT trade closed, duration: 1 bars, outcome: LOSS"
+2025-02-06T12:00:00,4972,LONG,97338.60,35.00%,99800.00,94500.00,基于Agent A的深度分析与历史模式匹配，当前市场处于'Pattern_SupportRebound_Oversold'的高胜率临界点：4H价格97339距离关键支撑94104仅3.4%，RSI_6,PENDING,N/A,N/A,0.0000,N/A,N/A,,Decision made at bar 4972
+2025-02-06T16:00:00,,SYSTEM_ORDER,N/A,N/A,N/A,N/A,MARKET: Buy,FILLED,97338.70,0.3466,0.3466,0.3466,N/A,,MARKET order execution
+2025-02-07T12:00:00,,SYSTEM_ORDER,N/A,N/A,N/A,N/A,TAKE_PROFIT: Sell,FILLED,99800.00,-0.3466,-0.3466,-0.3466,N/A,,TAKE_PROFIT order execution
+2025-02-07T12:00:00,,SYSTEM_ORDER,N/A,N/A,N/A,N/A,MARKET: Sell,FILLED,97748.90,-0.3466,-0.3466,-0.3466,N/A,,MARKET order execution
+2025-02-07T12:00:00,4977,CLOSE,N/A,N/A,N/A,N/A,Trade closed: WIN,COMPLETED,N/A,N/A,0.0000,0.0000,+784.75,,"LONG trade closed, duration: 5 bars, outcome: WIN"
+2025-02-07T16:00:00,4979,SHORT,96900.40,18.00%,94000.00,98500.00,基于Agent A的深度分析与历史模式匹配，当前市场呈现‘周线阻力未破 + 4H MACD多头背离 + 日线缩量’的高胜率反转前兆（Pattern_HighResistance_MacdReversa,PENDING,N/A,N/A,-0.3466,N/A,N/A,,Decision made at bar 4979
+2025-02-07T20:00:00,,SYSTEM_ORDER,N/A,N/A,N/A,N/A,MARKET: Buy,FILLED,96900.00,0.1656,-0.1810,-0.1810,N/A,,MARKET order execution
+2025-02-10T12:00:00,,SYSTEM_ORDER,N/A,N/A,N/A,N/A,MARKET: Buy,FILLED,97660.00,0.1810,0.0000,0.0000,N/A,,MARKET order execution
+2025-02-10T12:00:00,4995,CLOSE,N/A,N/A,N/A,N/A,Trade closed: WIN,COMPLETED,N/A,N/A,0.0000,0.0000,+87.61,,"SHORT trade closed, duration: 18 bars, outcome: WIN"
+2025-02-11T00:00:00,4999,LONG,97621.60,35.00%,101200.00,95200.00,基于Agent A的深度分析与历史模式匹配的辩证整合，当前市场呈现罕见的‘高位多头共识’新形态：4H MACD柱状图持续放大至189.55，DIF已上穿零轴，RSI_6达64.67且未超买背离，量能温,PENDING,N/A,N/A,0.0000,N/A,N/A,,Decision made at bar 4999
+2025-02-11T04:00:00,,SYSTEM_ORDER,N/A,N/A,N/A,N/A,MARKET: Buy,FILLED,97621.60,0.3487,0.3487,0.3487,N/A,,MARKET order execution
+2025-02-11T16:00:00,,SYSTEM_ORDER,N/A,N/A,N/A,N/A,STOP_LOSS: Sell,FILLED,95200.00,-0.3487,0.0000,0.0000,N/A,,STOP_LOSS order execution
+2025-02-11T16:00:00,5002,CLOSE,N/A,N/A,N/A,N/A,Trade closed: LOSS,COMPLETED,N/A,N/A,0.0000,0.0000,-911.70,,"LONG trade closed, duration: 3 bars, outcome: LOSS"
+2025-02-11T20:00:00,5004,LONG,95779.90,35.00%,99800.00,94500.00,基于Agent A的深度分析与历史模式匹配，当前市场呈现高概率多头反转结构：4H价格在95035关键支撑位企稳，RSI_6从21.94反弹至35.51，脱离严重超卖区，RSI_12回升至40.89，配,PENDING,N/A,N/A,0.0000,N/A,N/A,,Decision made at bar 5004
+2025-02-12T00:00:00,,SYSTEM_ORDER,N/A,N/A,N/A,N/A,MARKET: Buy,FILLED,95779.90,0.3521,0.3521,0.3521,N/A,,MARKET order execution
+2025-02-12T08:00:00,5007,SHORT,96099.80,25.00%,94000.00,97000.00,基于Agent A的深度分析与历史模式Pattern_HighVolume_Exit_Divergence的85%置信度，当前市场呈现月线极端高位（84%）、周线高位震荡（73%）、4H成交量萎缩至2,PENDING,N/A,N/A,0.3521,N/A,N/A,,Decision made at bar 5007
+2025-02-12T12:00:00,,SYSTEM_ORDER,N/A,N/A,N/A,N/A,STOP_LOSS: Sell,FILLED,94500.00,-0.3521,-0.6030,-0.6030,N/A,,STOP_LOSS order execution
+2025-02-12T12:00:00,,SYSTEM_ORDER,N/A,N/A,N/A,N/A,MARKET: Sell,FILLED,96099.90,-0.6030,-0.6030,-0.6030,N/A,,MARKET order execution
+2025-02-12T12:00:00,5007,CLOSE,N/A,N/A,N/A,N/A,Trade closed: LOSS,COMPLETED,N/A,N/A,0.0000,0.0000,-517.64,,"SHORT trade closed, duration: 3 bars, outcome: LOSS"
+2025-02-12T16:00:00,5009,SHORT,97200.30,75.00%,94000.00,98800.00,基于历史模式Pattern_ResistanceFail_WeeklyVolumeDivergence的强匹配（置信度85%），当前市场呈现三重共振看空信号：1）周线价格97200逼近历史高点1098,PENDING,N/A,N/A,-0.6030,N/A,N/A,,Decision made at bar 5009
+2025-02-12T20:00:00,,SYSTEM_ORDER,N/A,N/A,N/A,N/A,MARKET: Sell,FILLED,97200.40,-0.1309,-0.7339,-0.7339,N/A,,MARKET order execution
+2025-02-13T12:00:00,,SYSTEM_ORDER,N/A,N/A,N/A,N/A,MARKET: Buy,FILLED,95930.00,0.7339,0.0000,0.0000,N/A,,MARKET order execution
+2025-02-13T12:00:00,5013,CLOSE,N/A,N/A,N/A,N/A,Trade closed: WIN,COMPLETED,N/A,N/A,0.0000,0.0000,+125.78,,"SHORT trade closed, duration: 6 bars, outcome: WIN"
+2025-02-13T16:00:00,5015,LONG,95628.60,25.00%,97800.00,94000.00,基于同事小明的深度分析与历史模式匹配，当前市场呈现典型的'Pattern_Support_Rebound_Slowdown'结构：4H价格在95629逼近关键支撑94021（当前距离1608点），RS,PENDING,N/A,N/A,0.0000,N/A,N/A,,Decision made at bar 5015
+2025-02-13T20:00:00,,SYSTEM_ORDER,N/A,N/A,N/A,N/A,MARKET: Buy,FILLED,95628.70,0.2509,0.2509,0.2509,N/A,,MARKET order execution

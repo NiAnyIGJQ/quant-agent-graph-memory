@@ -1,0 +1,13 @@
+{
+  "broker_value": 101204.3966564062,
+  "broker_cash": 101204.3966564062,
+  "position_size": 0.0,
+  "position_price": 0.0,
+  "start_cash": 100000.0,
+  "params": {
+    "leverage": 1,
+    "commission": 0.001,
+    "start": "2024-11-01",
+    "end": "2025-11-23"
+  }
+}

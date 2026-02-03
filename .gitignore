@@ -1,0 +1,30 @@
+# Build and Release Folders
+bin-debug/
+bin-release/
+[Oo]bj/
+[Bb]in/
+
+# Other files and folders
+.settings/
+
+# Executables
+*.swf
+*.air
+*.ipa
+*.apk
+
+*_test.py
+*_test.ipynb
+# Project files, i.e. `.project`, `.actionScriptProperties` and `.flexProperties`
+# should NOT be excluded as they contain compiler settings and other important
+# information for Eclipse / Flash Builder.
+
+
+*.npy
+.claude
+.pytest*
+.vscode
+__pycache__
+
+BTC-USDT_1M_2021_2025.csv
+BTC-USDT_1m_2024_2025.csv
